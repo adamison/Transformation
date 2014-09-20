@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: 88ba0e2b5770b4747b207bca2d2f7b48
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: doorMountain
+    100002: doorSpokes
+    100004: heavyRoundDoor
+    100006: highStep
+    100008: lowStep
+    100010: polySurface8
+    100012: ray
+    100014: ray1
+    100016: ray10
+    100018: ray11
+    100020: ray2
+    100022: ray3
+    100024: ray4
+    100026: ray5
+    100028: ray6
+    100030: ray7
+    100032: ray8
+    100034: ray9
+    100036: roundDoor
+    100038: //RootNode
+    100040: roundDoorFrame
+    100042: roundDoorGlass
+    100044: roundDoorSpoke
+    100046: roundDoorSpoke1
+    100048: roundDoorSpoke2
+    100050: roundDoorSpoke3
+    100052: roundDoorSpoke4
+    100054: roundDoorSpoke5
+    100056: steps
+    400000: doorMountain
+    400002: doorSpokes
+    400004: heavyRoundDoor
+    400006: highStep
+    400008: lowStep
+    400010: polySurface8
+    400012: ray
+    400014: ray1
+    400016: ray10
+    400018: ray11
+    400020: ray2
+    400022: ray3
+    400024: ray4
+    400026: ray5
+    400028: ray6
+    400030: ray7
+    400032: ray8
+    400034: ray9
+    400036: //RootNode
+    400038: roundDoor
+    400040: roundDoorFrame
+    400042: roundDoorGlass
+    400044: roundDoorSpoke
+    400046: roundDoorSpoke1
+    400048: roundDoorSpoke2
+    400050: roundDoorSpoke3
+    400052: roundDoorSpoke4
+    400054: roundDoorSpoke5
+    400056: steps
+    2300000: doorMountain
+    2300002: highStep
+    2300004: lowStep
+    2300006: polySurface8
+    2300008: ray
+    2300010: ray1
+    2300012: ray10
+    2300014: ray11
+    2300016: ray2
+    2300018: ray3
+    2300020: ray4
+    2300022: ray5
+    2300024: ray6
+    2300026: ray7
+    2300028: ray8
+    2300030: ray9
+    2300032: roundDoorFrame
+    2300034: roundDoorGlass
+    2300036: roundDoorSpoke
+    2300038: roundDoorSpoke1
+    2300040: roundDoorSpoke2
+    2300042: roundDoorSpoke3
+    2300044: roundDoorSpoke4
+    2300046: roundDoorSpoke5
+    3300000: doorMountain
+    3300002: highStep
+    3300004: lowStep
+    3300006: polySurface8
+    3300008: ray
+    3300010: ray1
+    3300012: ray10
+    3300014: ray11
+    3300016: ray2
+    3300018: ray3
+    3300020: ray4
+    3300022: ray5
+    3300024: ray6
+    3300026: ray7
+    3300028: ray8
+    3300030: ray9
+    3300032: roundDoorFrame
+    3300034: roundDoorGlass
+    3300036: roundDoorSpoke
+    3300038: roundDoorSpoke1
+    3300040: roundDoorSpoke2
+    3300042: roundDoorSpoke3
+    3300044: roundDoorSpoke4
+    3300046: roundDoorSpoke5
+    4300000: roundDoorFrame
+    4300002: lowStep
+    4300004: highStep
+    4300006: doorMountain
+    4300008: ray9
+    4300010: polySurface8
+    4300012: ray10
+    4300014: ray11
+    4300016: ray6
+    4300018: ray7
+    4300020: ray8
+    4300022: ray2
+    4300024: ray1
+    4300026: ray
+    4300028: ray5
+    4300030: ray4
+    4300032: ray3
+    4300034: roundDoorGlass
+    4300036: roundDoorSpoke
+    4300038: roundDoorSpoke1
+    4300040: roundDoorSpoke2
+    4300042: roundDoorSpoke3
+    4300044: roundDoorSpoke4
+    4300046: roundDoorSpoke5
+    7400000: Take 001
+    7400002: Closed
+    7400004: Open
+    7400006: Opening
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doorSpokes
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke1
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke2
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke3
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke4
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke5
+        weight: 1
+      - path: roundDoor
+        weight: 1
+      - path: roundDoor/heavyRoundDoor
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/doorMountain
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/polySurface8
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray1
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray2
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray3
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray4
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray5
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray6
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray7
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray8
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray9
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray10
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray11
+        weight: 1
+      - path: roundDoor/roundDoorGlass
+        weight: 1
+      - path: roundDoorFrame
+        weight: 1
+      - path: steps
+        weight: 1
+      - path: steps/highStep
+        weight: 1
+      - path: steps/lowStep
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Closed
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doorSpokes
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke1
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke2
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke3
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke4
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke5
+        weight: 1
+      - path: roundDoor
+        weight: 1
+      - path: roundDoor/heavyRoundDoor
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/doorMountain
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/polySurface8
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray1
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray2
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray3
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray4
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray5
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray6
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray7
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray8
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray9
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray10
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray11
+        weight: 1
+      - path: roundDoor/roundDoorGlass
+        weight: 1
+      - path: roundDoorFrame
+        weight: 1
+      - path: steps
+        weight: 1
+      - path: steps/highStep
+        weight: 1
+      - path: steps/lowStep
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 149
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doorSpokes
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke1
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke2
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke3
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke4
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke5
+        weight: 1
+      - path: roundDoor
+        weight: 1
+      - path: roundDoor/heavyRoundDoor
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/doorMountain
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/polySurface8
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray1
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray2
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray3
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray4
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray5
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray6
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray7
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray8
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray9
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray10
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray11
+        weight: 1
+      - path: roundDoor/roundDoorGlass
+        weight: 1
+      - path: roundDoorFrame
+        weight: 1
+      - path: steps
+        weight: 1
+      - path: steps/highStep
+        weight: 1
+      - path: steps/lowStep
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Opening
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: doorSpokes
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke1
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke2
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke3
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke4
+        weight: 1
+      - path: doorSpokes/roundDoorSpoke5
+        weight: 1
+      - path: roundDoor
+        weight: 1
+      - path: roundDoor/heavyRoundDoor
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/doorMountain
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/polySurface8
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray1
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray2
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray3
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray4
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray5
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray6
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray7
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray8
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray9
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray10
+        weight: 1
+      - path: roundDoor/heavyRoundDoor/ray11
+        weight: 1
+      - path: roundDoor/roundDoorGlass
+        weight: 1
+      - path: roundDoorFrame
+        weight: 1
+      - path: steps
+        weight: 1
+      - path: steps/highStep
+        weight: 1
+      - path: steps/lowStep
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

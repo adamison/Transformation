@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 5731dbc27c27fd24694a6eaea60d63c9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: sunDoorFrameR
+    100004: sunDoorFrameR1
+    100006: sunDoorL
+    100008: sunDoorR
+    100010: sunLock
+    100012: sunLockL
+    100014: sunLockR
+    100016: sunDoor
+    100018: sunDoorFrame
+    400000: //RootNode
+    400002: sunDoorFrameR
+    400004: sunDoorFrameR1
+    400006: sunDoorL
+    400008: sunDoorR
+    400010: sunLock
+    400012: sunLockL
+    400014: sunLockR
+    400016: sunDoor
+    400018: sunDoorFrame
+    2300000: sunDoorFrameR
+    2300002: sunDoorFrameR1
+    2300004: sunDoorL
+    2300006: sunDoorR
+    2300008: sunLockL
+    2300010: sunLockR
+    2300012: sunDoorFrame
+    3300000: sunDoorFrameR
+    3300002: sunDoorFrameR1
+    3300004: sunDoorL
+    3300006: sunDoorR
+    3300008: sunLockL
+    3300010: sunLockR
+    3300012: sunDoorFrame
+    4300000: sunDoorFrameR
+    4300002: sunLockL
+    4300004: sunLockR
+    4300006: sunDoorR
+    4300008: sunDoorFrameR1
+    4300010: sunDoorL
+    4300012: sunDoorFrame
+    7400000: Take 001
+    7400002: Closed
+    7400004: Opening
+    7400006: Open
+    7400008: Closing
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 114
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sunDoorFrameR
+        weight: 1
+      - path: sunDoorFrameR1
+        weight: 1
+      - path: sunDoorL
+        weight: 1
+      - path: sunDoorR
+        weight: 1
+      - path: sunLock
+        weight: 1
+      - path: sunLock/sunLockL
+        weight: 1
+      - path: sunLock/sunLockR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Closed
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sunDoorFrameR
+        weight: 1
+      - path: sunDoorFrameR1
+        weight: 1
+      - path: sunDoorL
+        weight: 1
+      - path: sunDoorR
+        weight: 1
+      - path: sunLock
+        weight: 1
+      - path: sunLock/sunLockL
+        weight: 1
+      - path: sunLock/sunLockR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Opening
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sunDoorFrameR
+        weight: 1
+      - path: sunDoorFrameR1
+        weight: 1
+      - path: sunDoorL
+        weight: 1
+      - path: sunDoorR
+        weight: 1
+      - path: sunLock
+        weight: 1
+      - path: sunLock/sunLockL
+        weight: 1
+      - path: sunLock/sunLockR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 59
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sunDoorFrameR
+        weight: 1
+      - path: sunDoorFrameR1
+        weight: 1
+      - path: sunDoorL
+        weight: 1
+      - path: sunDoorR
+        weight: 1
+      - path: sunLock
+        weight: 1
+      - path: sunLock/sunLockL
+        weight: 1
+      - path: sunLock/sunLockR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Closing
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: sunDoorFrameR
+        weight: 1
+      - path: sunDoorFrameR1
+        weight: 1
+      - path: sunDoorL
+        weight: 1
+      - path: sunDoorR
+        weight: 1
+      - path: sunLock
+        weight: 1
+      - path: sunLock/sunLockL
+        weight: 1
+      - path: sunLock/sunLockR
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

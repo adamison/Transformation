@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: dee07ea7d408e884c93b70e87712c551
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: viewingGlass1
+    100002: viewingWall5
+    100004: viewingWallTrim
+    100006: viewingWallTrim 1
+    100008: viewingWallTrim1
+    100010: viewingWallTrim1 1
+    100012: wallTrim
+    100014: wallTrim1
+    100016: wallTrimVertical
+    100018: wallTrimVertical 1
+    100020: wallTrimVertical1
+    100022: wallTrimVertical1 1
+    100024: //RootNode
+    100026: windowWall
+    400000: viewingGlass1
+    400002: viewingWall5
+    400004: viewingWallTrim
+    400006: viewingWallTrim 1
+    400008: viewingWallTrim1
+    400010: viewingWallTrim1 1
+    400012: wallTrim
+    400014: wallTrim1
+    400016: wallTrimVertical
+    400018: wallTrimVertical 1
+    400020: wallTrimVertical1
+    400022: wallTrimVertical1 1
+    400024: windowWall
+    400026: //RootNode
+    2300000: viewingGlass1
+    2300002: viewingWall5
+    2300004: viewingWallTrim
+    2300006: viewingWallTrim 1
+    2300008: viewingWallTrim1
+    2300010: viewingWallTrim1 1
+    2300012: wallTrimVertical
+    2300014: wallTrimVertical 1
+    2300016: wallTrimVertical1
+    2300018: wallTrimVertical1 1
+    3300000: viewingGlass1
+    3300002: viewingWall5
+    3300004: viewingWallTrim
+    3300006: viewingWallTrim 1
+    3300008: viewingWallTrim1
+    3300010: viewingWallTrim1 1
+    3300012: wallTrimVertical
+    3300014: wallTrimVertical 1
+    3300016: wallTrimVertical1
+    3300018: wallTrimVertical1 1
+    4300000: viewingWall5
+    4300002: viewingGlass1
+    4300004: viewingWallTrim
+    4300006: wallTrimVertical1
+    4300008: viewingWallTrim1
+    4300010: wallTrimVertical
+    4300012: viewingWallTrim
+    4300014: wallTrimVertical1
+    4300016: viewingWallTrim1
+    4300018: wallTrimVertical
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

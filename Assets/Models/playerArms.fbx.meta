@@ -1,0 +1,1181 @@
+fileFormatVersion: 2
+guid: d40b202cb6346d946b3d72886823c160
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm:fk_elbow_control
+    100002: arm:fk_elbow_offset
+    100004: arm:fk_hand_control
+    100006: arm:fk_hand_offset
+    100008: arm:fk_shoulder_control
+    100010: arm:fk_shoulder_offset
+    100012: arm:L_arm_Smoothed
+    100014: arm:R_arm_FK_controls
+    100016: arm:R_FK_elbow
+    100018: arm:R_FK_forearm
+    100020: arm:R_FK_middle1
+    100022: arm:R_FK_middle2
+    100024: arm:R_FK_middle3
+    100026: arm:R_FK_pinky1
+    100028: arm:R_FK_pinky2
+    100030: arm:R_FK_pinky3
+    100032: arm:R_FK_pointer1
+    100034: arm:R_FK_pointer2
+    100036: arm:R_FK_pointer3
+    100038: arm:R_FK_ring1
+    100040: arm:R_FK_ring2
+    100042: arm:R_FK_ring3
+    100044: arm:R_FK_shoulder
+    100046: arm:R_FK_thumb1
+    100048: arm:R_FK_thumb2
+    100050: arm:R_FK_thumb3
+    100052: arm:R_FK_wrist
+    100054: fk_elbow_control
+    100056: fk_elbow_offset
+    100058: fk_hand_control
+    100060: fk_hand_offset
+    100062: fk_shoulder_control
+    100064: fk_shoulder_offset
+    100066: fpsCamera
+    100068: L_arm
+    100070: //RootNode
+    100072: R_arm
+    100074: R_arm_FK_controls
+    100076: R_arm_Smoothed
+    100078: R_FK_elbow
+    100080: R_FK_forearm
+    100082: R_FK_middle1
+    100084: R_FK_middle2
+    100086: R_FK_middle3
+    100088: R_FK_pinky1
+    100090: R_FK_pinky2
+    100092: R_FK_pinky3
+    100094: R_FK_pointer1
+    100096: R_FK_pointer2
+    100098: R_FK_pointer3
+    100100: R_FK_ring1
+    100102: R_FK_ring2
+    100104: R_FK_ring3
+    100106: R_FK_shoulder
+    100108: R_FK_thumb1
+    100110: R_FK_thumb2
+    100112: R_FK_thumb3
+    100114: R_FK_wrist
+    400000: arm:fk_elbow_control
+    400002: arm:fk_elbow_offset
+    400004: arm:fk_hand_control
+    400006: arm:fk_hand_offset
+    400008: arm:fk_shoulder_control
+    400010: arm:fk_shoulder_offset
+    400012: arm:L_arm_Smoothed
+    400014: arm:R_arm_FK_controls
+    400016: arm:R_FK_elbow
+    400018: arm:R_FK_forearm
+    400020: arm:R_FK_middle1
+    400022: arm:R_FK_middle2
+    400024: arm:R_FK_middle3
+    400026: arm:R_FK_pinky1
+    400028: arm:R_FK_pinky2
+    400030: arm:R_FK_pinky3
+    400032: arm:R_FK_pointer1
+    400034: arm:R_FK_pointer2
+    400036: arm:R_FK_pointer3
+    400038: arm:R_FK_ring1
+    400040: arm:R_FK_ring2
+    400042: arm:R_FK_ring3
+    400044: arm:R_FK_shoulder
+    400046: arm:R_FK_thumb1
+    400048: arm:R_FK_thumb2
+    400050: arm:R_FK_thumb3
+    400052: arm:R_FK_wrist
+    400054: fk_elbow_control
+    400056: fk_elbow_offset
+    400058: fk_hand_control
+    400060: fk_hand_offset
+    400062: fk_shoulder_control
+    400064: fk_shoulder_offset
+    400066: fpsCamera
+    400068: L_arm
+    400070: //RootNode
+    400072: R_arm
+    400074: R_arm_FK_controls
+    400076: R_arm_Smoothed
+    400078: R_FK_elbow
+    400080: R_FK_forearm
+    400082: R_FK_middle1
+    400084: R_FK_middle2
+    400086: R_FK_middle3
+    400088: R_FK_pinky1
+    400090: R_FK_pinky2
+    400092: R_FK_pinky3
+    400094: R_FK_pointer1
+    400096: R_FK_pointer2
+    400098: R_FK_pointer3
+    400100: R_FK_ring1
+    400102: R_FK_ring2
+    400104: R_FK_ring3
+    400106: R_FK_shoulder
+    400108: R_FK_thumb1
+    400110: R_FK_thumb2
+    400112: R_FK_thumb3
+    400114: R_FK_wrist
+    4300000: R_arm_Smoothed
+    4300002: arm:L_arm_Smoothed
+    7400000: ready
+    7400002: clasping
+    7400004: holding_clasped
+    7400006: reveal_push
+    7400008: push_button
+    7400010: idle
+    7400012: running
+    9500000: //RootNode
+    13700000: arm:L_arm_Smoothed
+    13700002: R_arm_Smoothed
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ready
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm:L_arm_Smoothed
+        weight: 1
+      - path: fpsCamera
+        weight: 1
+      - path: L_arm
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset/arm:fk_hand_control
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2/arm:R_FK_middle3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2/arm:R_FK_pinky3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2/arm:R_FK_pointer3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2/arm:R_FK_ring3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2/arm:R_FK_thumb3
+        weight: 1
+      - path: R_arm
+        weight: 1
+      - path: R_arm/R_arm_FK_controls
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset/fk_hand_control
+        weight: 1
+      - path: R_arm/R_FK_shoulder
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2/R_FK_middle3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2/R_FK_pinky3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2/R_FK_pointer3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2/R_FK_ring3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2/R_FK_thumb3
+        weight: 1
+      - path: R_arm_Smoothed
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: clasping
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm:L_arm_Smoothed
+        weight: 1
+      - path: fpsCamera
+        weight: 1
+      - path: L_arm
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset/arm:fk_hand_control
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2/arm:R_FK_middle3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2/arm:R_FK_pinky3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2/arm:R_FK_pointer3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2/arm:R_FK_ring3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2/arm:R_FK_thumb3
+        weight: 1
+      - path: R_arm
+        weight: 1
+      - path: R_arm/R_arm_FK_controls
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset/fk_hand_control
+        weight: 1
+      - path: R_arm/R_FK_shoulder
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2/R_FK_middle3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2/R_FK_pinky3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2/R_FK_pointer3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2/R_FK_ring3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2/R_FK_thumb3
+        weight: 1
+      - path: R_arm_Smoothed
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: holding_clasped
+      takeName: Take 001
+      firstFrame: 141
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm:L_arm_Smoothed
+        weight: 1
+      - path: fpsCamera
+        weight: 1
+      - path: L_arm
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset/arm:fk_hand_control
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2/arm:R_FK_middle3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2/arm:R_FK_pinky3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2/arm:R_FK_pointer3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2/arm:R_FK_ring3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2/arm:R_FK_thumb3
+        weight: 1
+      - path: R_arm
+        weight: 1
+      - path: R_arm/R_arm_FK_controls
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset/fk_hand_control
+        weight: 1
+      - path: R_arm/R_FK_shoulder
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2/R_FK_middle3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2/R_FK_pinky3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2/R_FK_pointer3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2/R_FK_ring3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2/R_FK_thumb3
+        weight: 1
+      - path: R_arm_Smoothed
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reveal_push
+      takeName: Take 001
+      firstFrame: 146
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm:L_arm_Smoothed
+        weight: 1
+      - path: fpsCamera
+        weight: 1
+      - path: L_arm
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset/arm:fk_hand_control
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2/arm:R_FK_middle3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2/arm:R_FK_pinky3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2/arm:R_FK_pointer3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2/arm:R_FK_ring3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2/arm:R_FK_thumb3
+        weight: 1
+      - path: R_arm
+        weight: 1
+      - path: R_arm/R_arm_FK_controls
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset/fk_hand_control
+        weight: 1
+      - path: R_arm/R_FK_shoulder
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2/R_FK_middle3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2/R_FK_pinky3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2/R_FK_pointer3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2/R_FK_ring3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2/R_FK_thumb3
+        weight: 1
+      - path: R_arm_Smoothed
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: push_button
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm:L_arm_Smoothed
+        weight: 1
+      - path: fpsCamera
+        weight: 1
+      - path: L_arm
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset/arm:fk_hand_control
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2/arm:R_FK_middle3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2/arm:R_FK_pinky3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2/arm:R_FK_pointer3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2/arm:R_FK_ring3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2/arm:R_FK_thumb3
+        weight: 1
+      - path: R_arm
+        weight: 1
+      - path: R_arm/R_arm_FK_controls
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset/fk_hand_control
+        weight: 1
+      - path: R_arm/R_FK_shoulder
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2/R_FK_middle3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2/R_FK_pinky3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2/R_FK_pointer3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2/R_FK_ring3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2/R_FK_thumb3
+        weight: 1
+      - path: R_arm_Smoothed
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm:L_arm_Smoothed
+        weight: 1
+      - path: fpsCamera
+        weight: 1
+      - path: L_arm
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset/arm:fk_hand_control
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2/arm:R_FK_middle3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2/arm:R_FK_pinky3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2/arm:R_FK_pointer3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2/arm:R_FK_ring3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2/arm:R_FK_thumb3
+        weight: 1
+      - path: R_arm
+        weight: 1
+      - path: R_arm/R_arm_FK_controls
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset/fk_hand_control
+        weight: 1
+      - path: R_arm/R_FK_shoulder
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2/R_FK_middle3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2/R_FK_pinky3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2/R_FK_pointer3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2/R_FK_ring3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2/R_FK_thumb3
+        weight: 1
+      - path: R_arm_Smoothed
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: running
+      takeName: Take 001
+      firstFrame: 241
+      lastFrame: 265
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm:L_arm_Smoothed
+        weight: 1
+      - path: fpsCamera
+        weight: 1
+      - path: L_arm
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset
+        weight: 1
+      - path: L_arm/arm:R_arm_FK_controls/arm:fk_shoulder_offset/arm:fk_shoulder_control/arm:fk_elbow_offset/arm:fk_elbow_control/arm:fk_hand_offset/arm:fk_hand_control
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_middle1/arm:R_FK_middle2/arm:R_FK_middle3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pinky1/arm:R_FK_pinky2/arm:R_FK_pinky3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_pointer1/arm:R_FK_pointer2/arm:R_FK_pointer3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_ring1/arm:R_FK_ring2/arm:R_FK_ring3
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2
+        weight: 1
+      - path: L_arm/arm:R_FK_shoulder/arm:R_FK_elbow/arm:R_FK_forearm/arm:R_FK_wrist/arm:R_FK_thumb1/arm:R_FK_thumb2/arm:R_FK_thumb3
+        weight: 1
+      - path: R_arm
+        weight: 1
+      - path: R_arm/R_arm_FK_controls
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset
+        weight: 1
+      - path: R_arm/R_arm_FK_controls/fk_shoulder_offset/fk_shoulder_control/fk_elbow_offset/fk_elbow_control/fk_hand_offset/fk_hand_control
+        weight: 1
+      - path: R_arm/R_FK_shoulder
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_middle1/R_FK_middle2/R_FK_middle3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pinky1/R_FK_pinky2/R_FK_pinky3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_pointer1/R_FK_pointer2/R_FK_pointer3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_ring1/R_FK_ring2/R_FK_ring3
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2
+        weight: 1
+      - path: R_arm/R_FK_shoulder/R_FK_elbow/R_FK_forearm/R_FK_wrist/R_FK_thumb1/R_FK_thumb2/R_FK_thumb3
+        weight: 1
+      - path: R_arm_Smoothed
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 6316638eb799fe04b99b72a24aaf2835
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: group2
+    100002: group3
+    100004: group4
+    100006: group5
+    100008: group6
+    100010: group7
+    100012: lightBranch
+    100014: lightBranch 1
+    100016: lightBranch 2
+    100018: lightBranch 3
+    100020: lightBranch 4
+    100022: lightBranch 5
+    100024: lightBranchEmitter
+    100026: lightBranchEmitter 1
+    100028: lightBranchEmitter 2
+    100030: lightBranchEmitter 3
+    100032: lightBranchEmitter 4
+    100034: lightBranchEmitter 5
+    100036: lightPole
+    100038: //RootNode
+    100040: lightTrunk
+    400000: group2
+    400002: group3
+    400004: group4
+    400006: group5
+    400008: group6
+    400010: group7
+    400012: lightBranch
+    400014: lightBranch 1
+    400016: lightBranch 2
+    400018: lightBranch 3
+    400020: lightBranch 4
+    400022: lightBranch 5
+    400024: lightBranchEmitter
+    400026: lightBranchEmitter 1
+    400028: lightBranchEmitter 2
+    400030: lightBranchEmitter 3
+    400032: lightBranchEmitter 4
+    400034: lightBranchEmitter 5
+    400036: lightPole
+    400038: //RootNode
+    400040: lightTrunk
+    2300000: lightBranch
+    2300002: lightBranch 1
+    2300004: lightBranch 2
+    2300006: lightBranch 3
+    2300008: lightBranch 4
+    2300010: lightBranch 5
+    2300012: lightBranchEmitter
+    2300014: lightBranchEmitter 1
+    2300016: lightBranchEmitter 2
+    2300018: lightBranchEmitter 3
+    2300020: lightBranchEmitter 4
+    2300022: lightBranchEmitter 5
+    2300024: lightTrunk
+    3300000: lightBranch
+    3300002: lightBranch 1
+    3300004: lightBranch 2
+    3300006: lightBranch 3
+    3300008: lightBranch 4
+    3300010: lightBranch 5
+    3300012: lightBranchEmitter
+    3300014: lightBranchEmitter 1
+    3300016: lightBranchEmitter 2
+    3300018: lightBranchEmitter 3
+    3300020: lightBranchEmitter 4
+    3300022: lightBranchEmitter 5
+    3300024: lightTrunk
+    4300000: lightBranchEmitter
+    4300002: lightBranch
+    4300004: lightBranchEmitter
+    4300006: lightBranch
+    4300008: lightBranchEmitter
+    4300010: lightBranch
+    4300012: lightBranchEmitter
+    4300014: lightBranch
+    4300016: lightBranchEmitter
+    4300018: lightBranch
+    4300020: lightBranchEmitter
+    4300022: lightBranch
+    4300024: lightTrunk
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
