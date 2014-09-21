@@ -21,7 +21,10 @@ public class Enemy : EnemyBase
 
 	protected Animator animator;	
 	private float directionDampTime = 0.25f;
-	
+	private float avoidRotationSpeed = 50f;
+	private int avoidRange = 1;
+	private RaycastHit avoidanceHit;
+	public bool doAvoid = false;
 	private GameObject player;
 
 	// Pathfinding
@@ -59,8 +62,8 @@ public class Enemy : EnemyBase
 	void FixedUpdate()
 	{
 		StateManager();
+		DoAvoidance();
 	}
-
 	
 	void StateManager()
 	{
@@ -145,7 +148,8 @@ public class Enemy : EnemyBase
 		CancelInvoke("StatePatrolEnter");
 		enemyState = EnemyState.chasing;
 	}
-	
+
+
 	void DoPathfinding()
 	{
 		// Do PF
@@ -192,6 +196,36 @@ public class Enemy : EnemyBase
 		}	
 	}
 	
+	void DoAvoidance()
+	{
+		Ray leftRay = new Ray(transform.position + (transform.right * 0.5f), transform.forward);
+		Ray rightRay = new Ray(transform.position - (transform.right * 0.5f), transform.forward);
+		
+		if( Physics.Raycast(leftRay, out avoidanceHit, avoidRange) ) 
+		{
+			if ( avoidanceHit.collider.gameObject.CompareTag("Obstacle") )
+			{
+				doAvoid = true;
+				transform.Rotate(Vector3.up * Time.deltaTime * -avoidRotationSpeed);
+				//_RotateYaw(avoidRotationSpeed);
+			}		
+		}
+		else if( Physics.Raycast(rightRay, out avoidanceHit, avoidRange) ) 
+		{
+			if ( avoidanceHit.collider.gameObject.CompareTag("Obstacle") )
+			{
+				doAvoid = true;
+				transform.Rotate(Vector3.up * Time.deltaTime * avoidRotationSpeed);
+				//_RotateYaw(avoidRotationSpeed);
+			}		
+		}
+		else
+		{
+			doAvoid = false;
+		}
+		
+	}	
+	
 	public void Respawn()
 	{
 		transform.position = startPosition;
@@ -212,7 +246,7 @@ public class Enemy : EnemyBase
 	public void _RotateYaw(float fTurnRate) {
 		if(fTurnRate > 6.0f) fTurnRate = 6.0f;
 		if(fTurnRate < -6.0f) fTurnRate = -6.0f;
-		transform.Rotate(fTurnRate * Vector3.up);
+		if(!doAvoid) transform.Rotate(fTurnRate * Vector3.up);
 	}
 	
 	public void _MoveForward(float fVelocity) {
@@ -265,7 +299,7 @@ public class Enemy : EnemyBase
 			}
 			
 			// Return whether target is reached
-			return fTargetDistance < 2.00f;
+			return fTargetDistance < 1f;
 		} else {
 			// Return whether we're facing the target
 			// Also include whether target is reached because when

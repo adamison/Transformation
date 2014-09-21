@@ -381,7 +381,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 97
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -597,7 +597,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 31
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -653,7 +653,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 38
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -1037,7 +1037,7 @@ GameObject:
   - 65: {fileID: 22771493}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1085,7 +1085,7 @@ GameObject:
   - 4: {fileID: 22794871}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1115,7 +1115,7 @@ GameObject:
   - 4: {fileID: 23798936}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1284,7 +1284,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 4cccd1ee63fef4e44ba85f0460204d65, type: 2}
       propertyPath: m_RootOrder
-      value: 127
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 4cccd1ee63fef4e44ba85f0460204d65, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -1319,7 +1319,7 @@ GameObject:
   - 65: {fileID: 30251318}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1369,7 +1369,7 @@ GameObject:
   - 65: {fileID: 31060441}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1643,7 +1643,7 @@ GameObject:
   - 65: {fileID: 37836100}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2215,7 +2215,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
@@ -2649,7 +2649,7 @@ GameObject:
   - 4: {fileID: 54136508}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2680,7 +2680,7 @@ GameObject:
   - 65: {fileID: 55109512}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2728,7 +2728,7 @@ GameObject:
   - 4: {fileID: 57168087}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2784,7 +2784,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 71
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -3012,7 +3012,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 78
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -3175,7 +3175,7 @@ GameObject:
   - 4: {fileID: 70351051}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3258,7 +3258,7 @@ GameObject:
   - 65: {fileID: 73955474}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3646,7 +3646,7 @@ GameObject:
   - 4: {fileID: 83701920}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3676,7 +3676,7 @@ GameObject:
   - 4: {fileID: 84675214}
   m_Layer: 0
   m_Name: Bed
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3695,7 +3695,7 @@ Transform:
   - {fileID: 227592410}
   - {fileID: 1197588391}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 8
+  m_RootOrder: 0
 --- !u!1 &84916523
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,7 +4454,7 @@ GameObject:
   - 65: {fileID: 103556083}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5455,7 +5455,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
@@ -5665,7 +5665,7 @@ GameObject:
   - 4: {fileID: 129803596}
   m_Layer: 0
   m_Name: WallCorner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6072,7 +6072,7 @@ GameObject:
   - 4: {fileID: 138108809}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6790,7 +6790,7 @@ GameObject:
   - 65: {fileID: 151353430}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7327,7 +7327,7 @@ GameObject:
   - 4: {fileID: 168474926}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7610,7 +7610,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 123
+      value: 98
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -8566,7 +8566,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 182
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -8814,7 +8814,7 @@ GameObject:
   - 4: {fileID: 208588381}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9031,7 +9031,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d988bc18d76429949beee1075e8e7a3a, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d988bc18d76429949beee1075e8e7a3a, type: 2}
@@ -9474,7 +9474,7 @@ GameObject:
   - 65: {fileID: 227012743}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9524,7 +9524,7 @@ GameObject:
   - 65: {fileID: 227592411}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9620,7 +9620,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!114 &227967388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10095,7 +10095,7 @@ GameObject:
   - 4: {fileID: 238238249}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10370,7 +10370,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec04b53737681b54b8cdeeab12781810, type: 2}
       propertyPath: m_RootOrder
-      value: 24
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec04b53737681b54b8cdeeab12781810, type: 2}
@@ -12240,7 +12240,7 @@ GameObject:
   - 4: {fileID: 297596282}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12317,7 +12317,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!114 &298832140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12469,7 +12469,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 39
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -12575,7 +12575,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 112
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -13031,7 +13031,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 80
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -13493,7 +13493,7 @@ GameObject:
   - 4: {fileID: 318947280}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13582,7 +13582,7 @@ GameObject:
   - 65: {fileID: 321243282}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13746,7 +13746,7 @@ GameObject:
   - 4: {fileID: 322619185}
   m_Layer: 0
   m_Name: WallCorner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13892,7 +13892,7 @@ GameObject:
   - 65: {fileID: 326620358}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14028,7 +14028,7 @@ GameObject:
   - 65: {fileID: 331475439}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -14337,7 +14337,7 @@ GameObject:
   - 65: {fileID: 338769080}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14473,7 +14473,7 @@ GameObject:
   - 65: {fileID: 340945759}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15271,7 +15271,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
@@ -15374,7 +15374,7 @@ GameObject:
   - 65: {fileID: 362406113}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15482,7 +15482,7 @@ GameObject:
   - 65: {fileID: 364320204}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16110,7 +16110,7 @@ GameObject:
   - 65: {fileID: 381368881}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16262,7 +16262,7 @@ GameObject:
   - 4: {fileID: 384436470}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16806,7 +16806,7 @@ Transform:
   - {fileID: 1439614904}
   - {fileID: 1379442209}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 23
+  m_RootOrder: 15
 --- !u!1 &395850491
 GameObject:
   m_ObjectHideFlags: 0
@@ -16819,7 +16819,7 @@ GameObject:
   - 65: {fileID: 395850493}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -16897,7 +16897,7 @@ GameObject:
   - 65: {fileID: 396487602}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -17133,7 +17133,7 @@ Transform:
   - {fileID: 489341550}
   - {fileID: 1739814209}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 20
+  m_RootOrder: 12
 --- !u!54 &400961415
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17748,7 +17748,7 @@ GameObject:
   - 65: {fileID: 410642355}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -18255,7 +18255,7 @@ Transform:
   - {fileID: 1786973474}
   - {fileID: 1573633435}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 14
+  m_RootOrder: 6
 --- !u!1001 &421855191
 Prefab:
   m_ObjectHideFlags: 0
@@ -18297,7 +18297,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
@@ -18345,7 +18345,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 173
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -18724,7 +18724,7 @@ GameObject:
   - 4: {fileID: 426827503}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19178,7 +19178,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 53
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -19237,7 +19237,7 @@ GameObject:
   - 65: {fileID: 437508503}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19414,7 +19414,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 93
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -19472,7 +19472,7 @@ GameObject:
   - 4: {fileID: 440627576}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20184,7 +20184,7 @@ GameObject:
   - 4: {fileID: 463239590}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20231,7 +20231,7 @@ Transform:
   - {fileID: 2124459567}
   - {fileID: 1819034791}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 15
+  m_RootOrder: 7
 --- !u!1 &467733181
 GameObject:
   m_ObjectHideFlags: 0
@@ -20244,7 +20244,7 @@ GameObject:
   - 65: {fileID: 467733183}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -21434,7 +21434,7 @@ GameObject:
   - 4: {fileID: 491466358}
   m_Layer: 0
   m_Name: WindowWallSmall
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21452,7 +21452,7 @@ Transform:
   - {fileID: 217582506}
   - {fileID: 1159771611}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 6
+  m_RootOrder: 25
 --- !u!1 &491487915
 GameObject:
   m_ObjectHideFlags: 0
@@ -21832,7 +21832,7 @@ GameObject:
   - 65: {fileID: 499261637}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22014,7 +22014,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 183
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -23107,7 +23107,7 @@ GameObject:
   - 65: {fileID: 527552613}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -23245,7 +23245,7 @@ GameObject:
   - 65: {fileID: 529470088}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -23493,7 +23493,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 76
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -23718,7 +23718,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 120
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -24029,7 +24029,7 @@ GameObject:
   - 4: {fileID: 546546840}
   m_Layer: 0
   m_Name: WindowWall
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24047,7 +24047,7 @@ Transform:
   - {fileID: 158580366}
   - {fileID: 436491353}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 1
+  m_RootOrder: 20
 --- !u!1001 &546623640
 Prefab:
   m_ObjectHideFlags: 0
@@ -24842,7 +24842,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 90
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -24986,7 +24986,7 @@ GameObject:
   - 65: {fileID: 563375437}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25463,7 +25463,7 @@ GameObject:
   - 65: {fileID: 576203195}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25682,7 +25682,7 @@ GameObject:
   - 4: {fileID: 579605158}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25945,7 +25945,7 @@ GameObject:
   - 65: {fileID: 586475311}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -25995,7 +25995,7 @@ GameObject:
   - 65: {fileID: 588557350}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26127,7 +26127,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 87
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -26289,7 +26289,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 132
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -26485,7 +26485,7 @@ GameObject:
   - 65: {fileID: 599724670}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26533,7 +26533,7 @@ GameObject:
   - 4: {fileID: 599864347}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26885,7 +26885,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 92
+      value: 109
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -27088,7 +27088,7 @@ GameObject:
   - 4: {fileID: 615808972}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -27193,7 +27193,7 @@ GameObject:
   - 65: {fileID: 617623277}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -28008,7 +28008,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 15
+  m_RootOrder: 0
 --- !u!114 &636785460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29571,7 +29571,7 @@ GameObject:
   - 65: {fileID: 671918815}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -29646,7 +29646,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 113
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -29705,7 +29705,7 @@ GameObject:
   - 65: {fileID: 673178496}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -30756,7 +30756,7 @@ GameObject:
   - 65: {fileID: 708801390}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -30888,7 +30888,7 @@ GameObject:
   - 4: {fileID: 709667852}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30906,7 +30906,7 @@ Transform:
   - {fileID: 1539801412}
   - {fileID: 338769079}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 25
+  m_RootOrder: 17
 --- !u!1001 &711415250
 Prefab:
   m_ObjectHideFlags: 0
@@ -30944,7 +30944,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 81
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -31031,7 +31031,7 @@ GameObject:
   - 4: {fileID: 711903952}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -31268,14 +31268,6 @@ Transform:
   m_LocalPosition: {x: 31.1716156, y: 55.9885025, z: 14.2949762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1015849161}
-  - {fileID: 546546840}
-  - {fileID: 1711458862}
-  - {fileID: 1646749204}
-  - {fileID: 1516788651}
-  - {fileID: 1988496697}
-  - {fileID: 491466358}
-  - {fileID: 741930208}
   - {fileID: 84675214}
   - {fileID: 1107750959}
   - {fileID: 792458177}
@@ -31295,6 +31287,14 @@ Transform:
   - {fileID: 1772080753}
   - {fileID: 709667852}
   - {fileID: 1074462332}
+  - {fileID: 1015849161}
+  - {fileID: 546546840}
+  - {fileID: 1711458862}
+  - {fileID: 1646749204}
+  - {fileID: 1516788651}
+  - {fileID: 1988496697}
+  - {fileID: 491466358}
+  - {fileID: 741930208}
   m_Father: {fileID: 1175493639}
   m_RootOrder: 3
 --- !u!1001 &717798257
@@ -31381,7 +31381,7 @@ Transform:
   - {fileID: 424894494}
   - {fileID: 1229915924}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 11
+  m_RootOrder: 3
 --- !u!1 &717916323
 GameObject:
   m_ObjectHideFlags: 0
@@ -31841,7 +31841,7 @@ GameObject:
   - 65: {fileID: 725599508}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -32436,7 +32436,7 @@ GameObject:
   - 4: {fileID: 741930208}
   m_Layer: 0
   m_Name: WindowWallSmall
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32454,7 +32454,7 @@ Transform:
   - {fileID: 1496859771}
   - {fileID: 226979663}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 7
+  m_RootOrder: 26
 --- !u!1 &742683351
 GameObject:
   m_ObjectHideFlags: 0
@@ -32903,7 +32903,7 @@ GameObject:
   - 4: {fileID: 750078461}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -33411,7 +33411,7 @@ GameObject:
   - 4: {fileID: 775336104}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -33611,7 +33611,7 @@ GameObject:
   - 4: {fileID: 781263220}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -33800,7 +33800,7 @@ GameObject:
   - 4: {fileID: 783007203}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -34111,7 +34111,7 @@ Transform:
   m_LocalScale: {x: .247847974, y: .247847989, z: .247847989}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!114 &789636525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34199,7 +34199,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!114 &791172604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34269,7 +34269,7 @@ GameObject:
   - 65: {fileID: 791771128}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -34317,7 +34317,7 @@ GameObject:
   - 4: {fileID: 791867202}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -34449,7 +34449,7 @@ Transform:
   - {fileID: 392742619}
   - {fileID: 1816039565}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 10
+  m_RootOrder: 2
 --- !u!1001 &792708464
 Prefab:
   m_ObjectHideFlags: 0
@@ -35633,7 +35633,7 @@ GameObject:
   - 65: {fileID: 816660605}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -36344,7 +36344,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 4cccd1ee63fef4e44ba85f0460204d65, type: 2}
       propertyPath: m_RootOrder
-      value: 79
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4cccd1ee63fef4e44ba85f0460204d65, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -36434,7 +36434,7 @@ GameObject:
   - 65: {fileID: 829173152}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -36867,7 +36867,7 @@ GameObject:
   - 4: {fileID: 842574718}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -37068,7 +37068,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 94
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -37371,7 +37371,7 @@ GameObject:
   - 4: {fileID: 853446124}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -37868,7 +37868,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 180
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -38168,7 +38168,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 139
+      value: 113
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -39374,7 +39374,7 @@ GameObject:
   - 65: {fileID: 899947178}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -39963,7 +39963,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 43
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -40187,7 +40187,7 @@ GameObject:
   - 65: {fileID: 921635755}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -40340,7 +40340,7 @@ Transform:
   m_LocalScale: {x: .247847974, y: .247847989, z: .247847989}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 14
+  m_RootOrder: 15
 --- !u!1 &924614652
 GameObject:
   m_ObjectHideFlags: 0
@@ -40369,7 +40369,7 @@ Transform:
   - {fileID: 1695741128}
   - {fileID: 1306324096}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 16
+  m_RootOrder: 8
 --- !u!1 &925325642
 GameObject:
   m_ObjectHideFlags: 0
@@ -40439,7 +40439,7 @@ GameObject:
   - 65: {fileID: 926108506}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -40897,7 +40897,7 @@ Transform:
   - {fileID: 1007419087}
   - {fileID: 2117385964}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 12
+  m_RootOrder: 4
 --- !u!1 &934202783
 GameObject:
   m_ObjectHideFlags: 0
@@ -41421,7 +41421,7 @@ GameObject:
   - 65: {fileID: 943321658}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -42104,7 +42104,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 56
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -42181,7 +42181,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!114 &960415034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42251,7 +42251,7 @@ GameObject:
   - 65: {fileID: 964483161}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -42595,7 +42595,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 94
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -42980,7 +42980,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 96
+      value: 117
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -43148,7 +43148,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 108
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -43884,7 +43884,7 @@ GameObject:
   - 4: {fileID: 1012231995}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -44019,7 +44019,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
@@ -44038,7 +44038,7 @@ GameObject:
   - 65: {fileID: 1014082500}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -44144,7 +44144,7 @@ GameObject:
   - 4: {fileID: 1015849161}
   m_Layer: 0
   m_Name: WindowWall
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44162,7 +44162,7 @@ Transform:
   - {fileID: 970671310}
   - {fileID: 288697171}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 0
+  m_RootOrder: 19
 --- !u!1 &1016146558
 GameObject:
   m_ObjectHideFlags: 0
@@ -44545,7 +44545,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!114 &1027801441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44781,7 +44781,7 @@ GameObject:
   - 4: {fileID: 1031677375}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -45421,7 +45421,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!114 &1051328261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45519,7 +45519,7 @@ GameObject:
   - 65: {fileID: 1053489213}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -46452,7 +46452,7 @@ GameObject:
   - 4: {fileID: 1074462332}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46470,7 +46470,7 @@ Transform:
   - {fileID: 1286166412}
   - {fileID: 1363195380}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 26
+  m_RootOrder: 18
 --- !u!1001 &1075004932
 Prefab:
   m_ObjectHideFlags: 0
@@ -46942,7 +46942,7 @@ GameObject:
   - 4: {fileID: 1084288739}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -47538,7 +47538,7 @@ GameObject:
   - 65: {fileID: 1097904441}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -47777,7 +47777,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 114
+      value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -47898,7 +47898,7 @@ Transform:
   - {fileID: 725002736}
   - {fileID: 1555568029}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 9
+  m_RootOrder: 1
 --- !u!1 &1108344561
 GameObject:
   m_ObjectHideFlags: 0
@@ -48421,7 +48421,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 74
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -48548,7 +48548,7 @@ GameObject:
   - 65: {fileID: 1127318286}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -48898,7 +48898,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 4cccd1ee63fef4e44ba85f0460204d65, type: 2}
       propertyPath: m_RootOrder
-      value: 41
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 4cccd1ee63fef4e44ba85f0460204d65, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -49189,7 +49189,7 @@ GameObject:
   - 65: {fileID: 1133406216}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -49440,7 +49440,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec04b53737681b54b8cdeeab12781810, type: 2}
       propertyPath: m_RootOrder
-      value: 25
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec04b53737681b54b8cdeeab12781810, type: 2}
@@ -50880,7 +50880,7 @@ GameObject:
   - 65: {fileID: 1181967623}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -50959,7 +50959,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 177
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -51274,7 +51274,7 @@ GameObject:
   - 65: {fileID: 1187940875}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51353,7 +51353,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
@@ -51451,7 +51451,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 176
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -51484,7 +51484,7 @@ GameObject:
   - 4: {fileID: 1193328980}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -51560,7 +51560,7 @@ GameObject:
   - 65: {fileID: 1193943501}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -51608,7 +51608,7 @@ GameObject:
   - 4: {fileID: 1194399702}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -51666,7 +51666,7 @@ GameObject:
   - 65: {fileID: 1197304018}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -51784,7 +51784,7 @@ GameObject:
   - 65: {fileID: 1197588392}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52048,7 +52048,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 40
+      value: 121
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -52190,7 +52190,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 22
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -52410,7 +52410,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!114 &1209026502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52505,7 +52505,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 138
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -52622,7 +52622,7 @@ GameObject:
   - 65: {fileID: 1215056882}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -53082,7 +53082,7 @@ GameObject:
   - 65: {fileID: 1227453948}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -53212,7 +53212,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 70
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -53349,7 +53349,7 @@ GameObject:
   - 4: {fileID: 1230968124}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -53465,7 +53465,7 @@ GameObject:
   - 4: {fileID: 1233449924}
   m_Layer: 0
   m_Name: WallCorner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -53645,7 +53645,7 @@ GameObject:
   - 4: {fileID: 1238667652}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -53729,7 +53729,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 111
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -54082,7 +54082,7 @@ GameObject:
   - 4: {fileID: 1250575854}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -54325,7 +54325,7 @@ GameObject:
   - 4: {fileID: 1254257776}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -54409,7 +54409,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 90
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -54953,7 +54953,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 109
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -55030,7 +55030,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 13
+  m_RootOrder: 14
 --- !u!114 &1274322627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55099,7 +55099,7 @@ GameObject:
   - 65: {fileID: 1274428786}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -55425,7 +55425,7 @@ GameObject:
   - 65: {fileID: 1285285605}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -55493,7 +55493,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!114 &1285514272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55561,7 +55561,7 @@ GameObject:
   - 4: {fileID: 1285967282}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -55722,7 +55722,7 @@ GameObject:
   - 4: {fileID: 1289948144}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -56302,7 +56302,7 @@ GameObject:
   - 4: {fileID: 1305038350}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -56717,7 +56717,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 111
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -56831,7 +56831,7 @@ GameObject:
   - 4: {fileID: 1321365674}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -58077,7 +58077,7 @@ GameObject:
   - 65: {fileID: 1351240027}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -58184,7 +58184,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 172
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -58317,7 +58317,7 @@ GameObject:
   - 65: {fileID: 1353238100}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -58604,7 +58604,7 @@ GameObject:
   - 65: {fileID: 1363195378}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58683,7 +58683,7 @@ GameObject:
   - 65: {fileID: 1363852375}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -59004,7 +59004,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 84
+      value: 142
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -59061,7 +59061,7 @@ GameObject:
   - 4: {fileID: 1374035568}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -59163,7 +59163,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 129
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -59649,7 +59649,7 @@ Transform:
   - {fileID: 1666036240}
   - {fileID: 1422941511}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 17
+  m_RootOrder: 9
 --- !u!1 &1391552742
 GameObject:
   m_ObjectHideFlags: 0
@@ -60114,7 +60114,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 171
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -60235,7 +60235,7 @@ GameObject:
   - 65: {fileID: 1402041095}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -60361,7 +60361,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 40
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -60656,6 +60656,7 @@ MonoBehaviour:
   walkSpeed: 1.25
   runSpeed: 4.25
   searchTime: 5
+  doAvoid: 0
   _AllWaypoints: []
   _TempTargetWayPoints: []
   _TargetWayPoints:
@@ -60971,7 +60972,7 @@ GameObject:
   - 4: {fileID: 1415130137}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -61028,7 +61029,7 @@ GameObject:
   - 4: {fileID: 1416061838}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -61085,7 +61086,7 @@ GameObject:
   - 4: {fileID: 1417397026}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -61116,7 +61117,7 @@ GameObject:
   - 65: {fileID: 1419017658}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -61271,7 +61272,7 @@ GameObject:
   - 4: {fileID: 1420576847}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -61562,6 +61563,7 @@ MonoBehaviour:
   walkSpeed: 1.25
   runSpeed: 4.25
   searchTime: 5
+  doAvoid: 0
   _AllWaypoints: []
   _TempTargetWayPoints: []
   _TargetWayPoints:
@@ -61609,7 +61611,7 @@ GameObject:
   - 4: {fileID: 1425510671}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -62099,7 +62101,7 @@ GameObject:
   - 65: {fileID: 1438958863}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -63076,7 +63078,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 141
+      value: 131
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -63105,7 +63107,7 @@ GameObject:
   - 4: {fileID: 1460222876}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -63339,7 +63341,7 @@ GameObject:
   - 4: {fileID: 1462417697}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -63998,7 +64000,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 102
+      value: 132
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -64622,7 +64624,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!114 &1489112738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65021,7 +65023,7 @@ GameObject:
   - 65: {fileID: 1502956837}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -65129,7 +65131,7 @@ GameObject:
   - 65: {fileID: 1505295290}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -65622,7 +65624,7 @@ GameObject:
   - 4: {fileID: 1516788651}
   m_Layer: 0
   m_Name: WindowWall
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65640,7 +65642,7 @@ Transform:
   - {fileID: 919269166}
   - {fileID: 334301123}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 4
+  m_RootOrder: 23
 --- !u!1 &1518206190
 GameObject:
   m_ObjectHideFlags: 0
@@ -65926,7 +65928,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 118
+      value: 133
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -66707,7 +66709,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
       propertyPath: m_RootOrder
-      value: 22
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
@@ -67573,7 +67575,7 @@ GameObject:
   - 65: {fileID: 1549917134}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -68030,7 +68032,7 @@ GameObject:
   - 4: {fileID: 1568310337}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -68710,7 +68712,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 4cccd1ee63fef4e44ba85f0460204d65, type: 2}
       propertyPath: m_RootOrder
-      value: 83
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 4cccd1ee63fef4e44ba85f0460204d65, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -69866,7 +69868,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 184
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -69899,7 +69901,7 @@ GameObject:
   - 4: {fileID: 1610302212}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -70105,7 +70107,7 @@ GameObject:
   - 65: {fileID: 1611799108}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -70721,7 +70723,7 @@ Transform:
   - {fileID: 635849342}
   - {fileID: 814969073}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 13
+  m_RootOrder: 5
 --- !u!1 &1628198970
 GameObject:
   m_ObjectHideFlags: 0
@@ -70808,7 +70810,7 @@ GameObject:
   - 65: {fileID: 1628254953}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -70858,7 +70860,7 @@ GameObject:
   - 65: {fileID: 1628598104}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -71394,7 +71396,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 179
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -71526,7 +71528,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!114 &1643416344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71709,7 +71711,7 @@ GameObject:
   - 4: {fileID: 1646749204}
   m_Layer: 0
   m_Name: WindowWall
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71727,7 +71729,7 @@ Transform:
   - {fileID: 1844630625}
   - {fileID: 431451876}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 3
+  m_RootOrder: 22
 --- !u!1 &1648198056
 GameObject:
   m_ObjectHideFlags: 0
@@ -71740,7 +71742,7 @@ GameObject:
   - 65: {fileID: 1648198058}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -71846,7 +71848,7 @@ GameObject:
   - 4: {fileID: 1649351188}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -71875,7 +71877,7 @@ GameObject:
   - 4: {fileID: 1652157025}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -72039,7 +72041,7 @@ GameObject:
   - 4: {fileID: 1658119934}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -72499,7 +72501,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 47
+      value: 134
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -72761,7 +72763,7 @@ GameObject:
   - 4: {fileID: 1669408154}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -73230,7 +73232,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 178
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -73293,7 +73295,7 @@ GameObject:
   - 65: {fileID: 1680795515}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -73518,7 +73520,7 @@ GameObject:
   - 65: {fileID: 1683485421}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -74186,7 +74188,7 @@ GameObject:
   - 4: {fileID: 1694498551}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -74423,7 +74425,7 @@ Transform:
   - {fileID: 1663160258}
   - {fileID: 1641319812}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 19
+  m_RootOrder: 11
 --- !u!1 &1697995579
 GameObject:
   m_ObjectHideFlags: 0
@@ -74436,7 +74438,7 @@ GameObject:
   - 65: {fileID: 1697995581}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -74670,7 +74672,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 60
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -74900,7 +74902,7 @@ GameObject:
   - 65: {fileID: 1710131731}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -75100,7 +75102,7 @@ GameObject:
   - 4: {fileID: 1711458862}
   m_Layer: 0
   m_Name: WindowWall
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75118,7 +75120,7 @@ Transform:
   - {fileID: 179479499}
   - {fileID: 679758580}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 2
+  m_RootOrder: 21
 --- !u!1 &1715212818
 GameObject:
   m_ObjectHideFlags: 0
@@ -75674,7 +75676,7 @@ GameObject:
   - 65: {fileID: 1730709853}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -76607,7 +76609,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 48
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -76910,7 +76912,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 175
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -77288,7 +77290,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
@@ -77513,7 +77515,7 @@ GameObject:
   - 4: {fileID: 1772080753}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77531,7 +77533,7 @@ Transform:
   - {fileID: 1540550352}
   - {fileID: 1187940874}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 24
+  m_RootOrder: 16
 --- !u!1 &1773026009
 GameObject:
   m_ObjectHideFlags: 0
@@ -77649,7 +77651,7 @@ GameObject:
   - 4: {fileID: 1776754639}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -77698,7 +77700,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!114 &1777208124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77796,7 +77798,7 @@ GameObject:
   - 65: {fileID: 1777487670}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -77844,7 +77846,7 @@ GameObject:
   - 4: {fileID: 1778509427}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -78234,7 +78236,7 @@ GameObject:
   - 4: {fileID: 1786388091}
   m_Layer: 0
   m_Name: WallCorner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -78920,7 +78922,7 @@ GameObject:
   - 65: {fileID: 1804268957}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -78970,7 +78972,7 @@ GameObject:
   - 65: {fileID: 1805228418}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -79074,7 +79076,7 @@ GameObject:
   - 4: {fileID: 1808698147}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -79510,7 +79512,7 @@ GameObject:
   - 4: {fileID: 1817527613}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -80005,7 +80007,7 @@ GameObject:
   - 4: {fileID: 1826160765}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -80061,7 +80063,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 77
+      value: 136
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -80618,7 +80620,7 @@ Transform:
   - {fileID: 89171188}
   - {fileID: 824775409}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 22
+  m_RootOrder: 14
 --- !u!54 &1839519045
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -80960,7 +80962,7 @@ GameObject:
   - 65: {fileID: 1846225916}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -81238,7 +81240,7 @@ GameObject:
   - 4: {fileID: 1849333520}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -81325,7 +81327,7 @@ GameObject:
   - 4: {fileID: 1850584054}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -82278,7 +82280,7 @@ GameObject:
   - 65: {fileID: 1872432511}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -83792,7 +83794,7 @@ GameObject:
   - 65: {fileID: 1912221282}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -84049,7 +84051,7 @@ Transform:
   - {fileID: 1469500393}
   - {fileID: 123002573}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 21
+  m_RootOrder: 13
 --- !u!1 &1917360536
 GameObject:
   m_ObjectHideFlags: 0
@@ -84390,7 +84392,7 @@ GameObject:
   - 65: {fileID: 1929350531}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -85175,7 +85177,7 @@ GameObject:
   - 65: {fileID: 1947201166}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -85397,7 +85399,7 @@ GameObject:
   - 65: {fileID: 1953704432}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -85559,7 +85561,7 @@ GameObject:
   - 4: {fileID: 1958137546}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -85639,7 +85641,7 @@ GameObject:
   - 4: {fileID: 1962721822}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -86102,7 +86104,7 @@ Transform:
   m_LocalScale: {x: .247848004, y: .247848004, z: .247848004}
   m_Children: []
   m_Father: {fileID: 2050769536}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!114 &1975301704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86435,7 +86437,7 @@ GameObject:
   - 65: {fileID: 1983996377}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -86696,7 +86698,7 @@ GameObject:
   - 4: {fileID: 1988496697}
   m_Layer: 0
   m_Name: WindowWall
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86714,7 +86716,7 @@ Transform:
   - {fileID: 1193806664}
   - {fileID: 1186220750}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 5
+  m_RootOrder: 24
 --- !u!1 &1989010195
 GameObject:
   m_ObjectHideFlags: 0
@@ -86755,7 +86757,7 @@ GameObject:
   - 65: {fileID: 1989347666}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -86858,7 +86860,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 23
+      value: 141
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -86889,7 +86891,7 @@ GameObject:
   - 65: {fileID: 1990554161}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -86964,7 +86966,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 51
+      value: 143
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -87915,7 +87917,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86aa9a3424d559c489a1420e278d3e1c, type: 2}
@@ -88129,7 +88131,7 @@ GameObject:
   - 65: {fileID: 2036688328}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -88177,7 +88179,7 @@ GameObject:
   - 4: {fileID: 2036914374}
   m_Layer: 0
   m_Name: WallCornerInner
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -88620,6 +88622,7 @@ Transform:
   m_LocalPosition: {x: -1.33503342, y: 4.21430969, z: -1.86040306}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 636785459}
   - {fileID: 1489112737}
   - {fileID: 1285514271}
   - {fileID: 1975301703}
@@ -88635,7 +88638,6 @@ Transform:
   - {fileID: 1209026501}
   - {fileID: 1274322626}
   - {fileID: 923864997}
-  - {fileID: 636785459}
   m_Father: {fileID: 0}
   m_RootOrder: 4
 --- !u!1 &2051821333
@@ -88990,7 +88992,7 @@ GameObject:
   - 65: {fileID: 2055919241}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -89065,7 +89067,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 87
+      value: 144
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -89328,7 +89330,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 181
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -89438,7 +89440,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 52
+      value: 137
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -89485,7 +89487,7 @@ Transform:
   - {fileID: 878822216}
   - {fileID: 1477810751}
   m_Father: {fileID: 716918442}
-  m_RootOrder: 18
+  m_RootOrder: 10
 --- !u!1 &2064314710
 GameObject:
   m_ObjectHideFlags: 0
@@ -90007,7 +90009,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_RootOrder
-      value: 174
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 7b9f19a6475284c429706a21fea1cd4b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -90253,7 +90255,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 96
+      value: 138
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -90498,7 +90500,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 116
+      value: 139
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -91471,7 +91473,7 @@ GameObject:
   - 65: {fileID: 2103864232}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -91519,7 +91521,7 @@ GameObject:
   - 4: {fileID: 2105063591}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -91794,7 +91796,7 @@ GameObject:
   - 65: {fileID: 2121273649}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -92046,7 +92048,7 @@ GameObject:
   - 4: {fileID: 2124503698}
   m_Layer: 0
   m_Name: WallTile
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -92198,7 +92200,7 @@ GameObject:
   - 65: {fileID: 2131984388}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -92387,7 +92389,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_RootOrder
-      value: 33
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 08a688688770e6f4889cb57952daeb6b, type: 2}
       propertyPath: m_StaticEditorFlags
