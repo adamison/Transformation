@@ -9,13 +9,13 @@ public class EnemySight : EnemyBase
 	public bool playerInRange;
 	public GameObject inSightPrefab;
 	public GameObject inRangePrefab;
+	public Vector3 lastSeenPosition;
 
 	private SphereCollider col;
 	private GameObject player;
 	private GameObject inSightAlert;
 	private GameObject inRangeAlert;
-	private Vector3 lastSeenPosition;
-	
+
 	void Start ()
 	{
 		col = GetComponentsInChildren<SphereCollider>()[0];
@@ -39,7 +39,7 @@ public class EnemySight : EnemyBase
 
 	
 	void FixedUpdate ()
-	{
+	{	
 		if (playerInRange == true)
 		{
 			inRangeAlert.SetActive(true);
@@ -50,23 +50,13 @@ public class EnemySight : EnemyBase
 		{
 			inSightAlert.SetActive (true);
 			inRangeAlert.SetActive(false);
-			
-			this.Enemy.enemyState = Enemy.EnemyState.chasing;
-			this.Enemy.chaseTarget = player;
-		}
-		else if (lastSeenPosition != null)
-		{
-			this.Enemy.enemyState = Enemy.EnemyState.searching;
-		}
-		else
-		{
-			this.Enemy.enemyState = Enemy.EnemyState.patrolling;
 		}
 		
 		if (playerInRange == false) inRangeAlert.SetActive(false);
 		if (playerInSight == false) inSightAlert.SetActive(false);
 		
 	}
+
 	
 	
 	void OnTriggerStay (Collider other)
@@ -107,7 +97,7 @@ public class EnemySight : EnemyBase
 			playerInSight = false;
 			playerInRange = false;
 
-			lastSeenPosition = player.transform.position;
+			if (playerInSight) lastSeenPosition = player.transform.position;
 		}
 	}
 	

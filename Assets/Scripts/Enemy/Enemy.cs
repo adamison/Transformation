@@ -16,9 +16,13 @@ public class Enemy : EnemyBase
 
 	public float walkSpeed = 1.25f;
 	public float runSpeed = 3.25f;
+	
+	public float searchTime = 4.0f;
 
 	protected Animator animator;	
 	private float directionDampTime = 0.25f;
+	
+	private GameObject player;
 
 	// Pathfinding
 	private int _CURRENT_STATE = 0;
@@ -39,6 +43,7 @@ public class Enemy : EnemyBase
 
 	void Start()
 	{
+		GameObject player = DataCore.player.gameObject;
 		controller = GetComponent<CharacterController> ();
 		animator = GetComponentInChildren<Animator>();
 		startPosition = transform.position;
@@ -48,63 +53,113 @@ public class Enemy : EnemyBase
 
 	void FixedUpdate()
 	{
-		if(enemyState == EnemyState.chasing && chaseTarget != null)
-		{
-			_SeekTarget(chaseTarget.transform.position, runSpeed);
-		}
-
-		if (enemyState == EnemyState.patrolling) 
-		{		
-			animator.SetFloat("Speed", walkSpeed);
-			//animator.SetFloat("Direction", h, directionDampTime, Time.deltaTime);
-
-			// Do PF
-			if(_CURRENT_STATE == _STATE_INITIALIZE) {
-				_PathFinder._OnInitialize();
-				_CURRENT_STATE = _STATE_WAIT_FOR_TARGET;
-				_Target = _TargetWayPoints[_next_target];
-			}
-			
-			if(_CURRENT_STATE == _STATE_WAIT_FOR_TARGET) {
-				_CURRENT_STATE = _STATE_FIND_PATH;	
-			}
-			
-			if(_CURRENT_STATE == _STATE_FIND_PATH) {
-				_PathFinder._FindPath(this.transform.position, _Target.transform.position);
-				_CURRENT_STATE = _STATE_DETERMINE_NEXT_WAYPOINT;
-			}
-			
-			if(_CURRENT_STATE == _STATE_DETERMINE_NEXT_WAYPOINT) {
-				_Target = _PathFinder._GetNextUntraveledWayPointOnPath(this.transform.position);
-				if(_Target != null) {
-					_CURRENT_STATE = _STATE_TURN_TO_WAYPOINT;
-				} else {
-					_next_target++;
-					if(_next_target >= _TargetWayPoints.Length) {
-						_next_target = 0;	
-					}
-					_Target = _TargetWayPoints[_next_target];
-					_CURRENT_STATE = _STATE_WAIT_FOR_TARGET;
-				}
-			}
-			
-			if(_CURRENT_STATE == _STATE_TURN_TO_WAYPOINT) {
-				if(_SeekTarget(_Target.transform.position, 0.0f)) {
-					_CURRENT_STATE = _STATE_SEEK_WAYPOINT;	
-				}
-			}
-			
-			if(_CURRENT_STATE == _STATE_SEEK_WAYPOINT) {
-				if(_SeekTarget(_Target.transform.position, walkSpeed)) {
-					_PathFinder._MarkWayPointAsTraveled(_Target);
-					_CURRENT_STATE = _STATE_DETERMINE_NEXT_WAYPOINT;
-				}
-			}
-		}
-
-
+		StateManager();
 	}
 
+	
+	void StateManager()
+	{
+		switch(this.Enemy.enemyState)
+		{
+			case Enemy.EnemyState.idle:
+				//Relax and look around (rotate occasionally)
+				break;
+			case Enemy.EnemyState.patrolling:
+				animator.SetFloat("Speed", walkSpeed);
+				//animator.SetFloat("Direction", h, directionDampTime, Time.deltaTime);
+				DoPathfinding();
+				
+				break;		
+			case Enemy.EnemyState.chasing:
+				animator.SetFloat("Speed", runSpeed);
+				
+				//if I see the player, chase him
+				this.Enemy.enemyState = Enemy.EnemyState.chasing;
+				this.Enemy.chaseTarget = player;			
+				
+				_SeekTarget(chaseTarget.transform.position, runSpeed);
+				
+				//else go to the last seen position and enter search state
+				if(!EnemySight.playerInSight)
+				{
+					StateSearchingEnter();														
+				}
+				break;				
+			case Enemy.EnemyState.searching:
+				animator.SetFloat("Speed", walkSpeed);
+				_SeekTarget(EnemySight.lastSeenPosition, runSpeed);
+				//_RotateYaw(2f);
+				break;			
+		}
+		
+		if(EnemySight.playerInSight)
+		{
+			StateChasingEnter();
+		}
+	}
+	
+	void StatePatrolEnter()
+	{
+		this.Enemy.enemyState = Enemy.EnemyState.patrolling;		
+	}
+	void StateSearchingEnter()
+	{
+		Invoke ("StatePatrolEnter", searchTime);
+		this.Enemy.enemyState = Enemy.EnemyState.searching;
+		//set animator
+	}
+	void StateChasingEnter()
+	{
+		CancelInvoke("StatePatrolEnter");
+		this.Enemy.enemyState = Enemy.EnemyState.chasing;
+	}
+	
+	void DoPathfinding()
+	{
+		// Do PF
+		if(_CURRENT_STATE == _STATE_INITIALIZE) {
+			_PathFinder._OnInitialize();
+			_CURRENT_STATE = _STATE_WAIT_FOR_TARGET;
+			_Target = _TargetWayPoints[_next_target];
+		}
+		
+		if(_CURRENT_STATE == _STATE_WAIT_FOR_TARGET) {
+			_CURRENT_STATE = _STATE_FIND_PATH;	
+		}
+		
+		if(_CURRENT_STATE == _STATE_FIND_PATH) {
+			_PathFinder._FindPath(this.transform.position, _Target.transform.position);
+			_CURRENT_STATE = _STATE_DETERMINE_NEXT_WAYPOINT;
+		}
+		
+		if(_CURRENT_STATE == _STATE_DETERMINE_NEXT_WAYPOINT) {
+			_Target = _PathFinder._GetNextUntraveledWayPointOnPath(this.transform.position);
+			if(_Target != null) {
+				_CURRENT_STATE = _STATE_TURN_TO_WAYPOINT;
+			} else {
+				_next_target++;
+				if(_next_target >= _TargetWayPoints.Length) {
+					_next_target = 0;	
+				}
+				_Target = _TargetWayPoints[_next_target];
+				_CURRENT_STATE = _STATE_WAIT_FOR_TARGET;
+			}
+		}
+		
+		if(_CURRENT_STATE == _STATE_TURN_TO_WAYPOINT) {
+			if(_SeekTarget(_Target.transform.position, 0.0f)) {
+				_CURRENT_STATE = _STATE_SEEK_WAYPOINT;	
+			}
+		}
+		
+		if(_CURRENT_STATE == _STATE_SEEK_WAYPOINT) {
+			if(_SeekTarget(_Target.transform.position, walkSpeed)) {
+				_PathFinder._MarkWayPointAsTraveled(_Target);
+				_CURRENT_STATE = _STATE_DETERMINE_NEXT_WAYPOINT;
+			}
+		}	
+	}
+	
 	public void Respawn()
 	{
 		transform.position = startPosition;
