@@ -35,6 +35,8 @@ public class Enemy : EnemyBase
 	
 	private PathCore.PathFinder _PathFinder = new PathCore.PathFinder();
 	
+	public Component[] _AllWaypoints = null;
+	public Component[] _TempTargetWayPoints = null;
 	public Component[] _TargetWayPoints = null;
 	private int _next_target = 0;
 	
@@ -43,12 +45,15 @@ public class Enemy : EnemyBase
 
 	void Start()
 	{
-		GameObject player = DataCore.player.gameObject;
+		player = DataCore.player.gameObject;
 		controller = GetComponent<CharacterController> ();
 		animator = GetComponentInChildren<Animator>();
 		startPosition = transform.position;
 		currentHealth = maxHealth;
 		chaseTarget = null;
+		
+		_AllWaypoints = GameObject.FindObjectsOfType<WayPoint>();
+		_TempTargetWayPoints = _TargetWayPoints;
 	}
 
 	void FixedUpdate()
@@ -59,25 +64,27 @@ public class Enemy : EnemyBase
 	
 	void StateManager()
 	{
-		switch(this.Enemy.enemyState)
+		switch(enemyState)
 		{
-			case Enemy.EnemyState.idle:
+			case EnemyState.idle:
 				//Relax and look around (rotate occasionally)
 				break;
-			case Enemy.EnemyState.patrolling:
+			case EnemyState.patrolling:
+				//if(_TempTargetWayPoints != null) _TargetWayPoints = _TempTargetWayPoints;
+			
 				animator.SetFloat("Speed", walkSpeed);
 				//animator.SetFloat("Direction", h, directionDampTime, Time.deltaTime);
 				DoPathfinding();
 				
 				break;		
-			case Enemy.EnemyState.chasing:
+			case EnemyState.chasing:
 				animator.SetFloat("Speed", runSpeed);
 				
 				//if I see the player, chase him
-				this.Enemy.enemyState = Enemy.EnemyState.chasing;
-				this.Enemy.chaseTarget = player;			
+				enemyState = EnemyState.chasing;
+				chaseTarget = player;
 				
-				_SeekTarget(chaseTarget.transform.position, runSpeed);
+				if(chaseTarget != null) _SeekTarget(chaseTarget.transform.position, runSpeed);
 				
 				//else go to the last seen position and enter search state
 				if(!EnemySight.playerInSight)
@@ -85,9 +92,11 @@ public class Enemy : EnemyBase
 					StateSearchingEnter();														
 				}
 				break;				
-			case Enemy.EnemyState.searching:
-				animator.SetFloat("Speed", walkSpeed);
-				_SeekTarget(EnemySight.lastSeenPosition, runSpeed);
+			case EnemyState.searching:
+				animator.SetFloat("Speed", walkSpeed);			
+				
+				DoPathfinding();
+				
 				//_RotateYaw(2f);
 				break;			
 		}
@@ -100,18 +109,41 @@ public class Enemy : EnemyBase
 	
 	void StatePatrolEnter()
 	{
-		this.Enemy.enemyState = Enemy.EnemyState.patrolling;		
+		_TargetWayPoints = _TempTargetWayPoints;
+		enemyState = Enemy.EnemyState.patrolling;		
 	}
 	void StateSearchingEnter()
 	{
+		
+		// Get the nearest waypoint to us, and the nearest waypoint to the lastSeenPos
+		Component closestWp = null;
+		Component closestWpToLastSeen = null;
+		foreach (Component wp in _AllWaypoints)
+		{
+			if(closestWp == null) closestWp = wp;
+			if(closestWpToLastSeen == null) closestWpToLastSeen = wp;
+			
+			if(Vector3.Distance(transform.position, wp.transform.position) < Vector3.Distance(transform.position, closestWp.transform.position))
+			{
+				closestWp = wp;
+			}
+			
+			if(Vector3.Distance(EnemySight.lastSeenPosition, wp.transform.position) < Vector3.Distance(EnemySight.lastSeenPosition, closestWpToLastSeen.transform.position))
+			{
+				closestWpToLastSeen = wp;
+			}
+		}				
+		//_SeekTarget(EnemySight.lastSeenPosition, runSpeed);
+		_TargetWayPoints = new Component[] { closestWp, closestWpToLastSeen };
+			
 		Invoke ("StatePatrolEnter", searchTime);
-		this.Enemy.enemyState = Enemy.EnemyState.searching;
+		enemyState = EnemyState.searching;
 		//set animator
 	}
 	void StateChasingEnter()
 	{
 		CancelInvoke("StatePatrolEnter");
-		this.Enemy.enemyState = Enemy.EnemyState.chasing;
+		enemyState = EnemyState.chasing;
 	}
 	
 	void DoPathfinding()

@@ -31,7 +31,6 @@ public class DataCore : MonoBehaviour
 		
 		//playerObject = GameObject.FindGameObjectWithTag("Player");
 		CreatePlayer();
-		//CreateEnemies();
 	}
 	
 	public static T GetCachedComponent<T>( GameObject gameObject, ref T cachedComponent ) where T : MonoBehaviour
@@ -52,21 +51,6 @@ public class DataCore : MonoBehaviour
 		playerObject.transform.rotation = spawnPoint.transform.rotation;
 
 		player = playerObject.GetComponent<Player>();
-	}
-
-	public void CreateEnemies()
-	{		
-		foreach (Transform spawn in enemySpawnPoints)
-		{
-			GameObject enemy = Instantiate (enemyPrefab, Vector3.zero, Quaternion.identity) as GameObject;
-
-			enemy.transform.position = spawn.transform.position;
-			enemy.transform.rotation = spawn.transform.rotation;
-
-			// get the waypoints to walk to
-
-			enemies.Add (enemy);
-		}
 	}
 
 	public static void RespawnPlayer()
