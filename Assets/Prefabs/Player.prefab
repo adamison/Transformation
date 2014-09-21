@@ -1955,8 +1955,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   playerState: 0
-  moveSpeed: 3
-  runSpeed: 5
+  moveSpeed: 2.25
+  runSpeed: 3
   mouseSensitivity: 2
   moveDirection: {x: 0, y: 0, z: 0}
   pitch: 0

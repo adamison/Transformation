@@ -15,7 +15,7 @@ public class Enemy : EnemyBase
 	public GameObject chaseTarget;
 
 	public float walkSpeed = 1.25f;
-	public float runSpeed = 3.25f;
+	public float runSpeed = 4.25f;
 	
 	public float searchTime = 4.0f;
 
@@ -89,7 +89,7 @@ public class Enemy : EnemyBase
 				//else go to the last seen position and enter search state
 				if(!EnemySight.playerInSight)
 				{
-					StateSearchingEnter();														
+					Invoke("StateSearchingEnter", searchTime);														
 				}
 				break;				
 			case EnemyState.searching:

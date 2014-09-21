@@ -11093,7 +11093,10 @@ MonoBehaviour:
   startPosition: {x: 0, y: 0, z: 0}
   chaseTarget: {fileID: 0}
   walkSpeed: 1.25
-  runSpeed: 3.25
+  runSpeed: 4.25
+  searchTime: 5
+  _AllWaypoints: []
+  _TempTargetWayPoints: []
   _TargetWayPoints:
   - {fileID: 0}
   - {fileID: 0}
@@ -11115,6 +11118,7 @@ MonoBehaviour:
   playerInRange: 0
   inSightPrefab: {fileID: 100004, guid: 7c12d53b096cae7498a9eaaa406b2ab9, type: 2}
   inRangePrefab: {fileID: 100000, guid: 238de68d07662264ab823bb294d36a75, type: 2}
+  lastSeenPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
