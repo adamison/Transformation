@@ -8,6 +8,8 @@ public class ProjectileBase : MonoBehaviour
 	public float lifeTime = 2f;
 	public float damage = 10f;
 	public GameObject hitFX = null;
+	public GameObject enemyHitFX = null;
+	public GameObject lightBleedFX = null;
 	public ParticleSystem particles = null;
 
 	public GameObject hitEnemy = null;
@@ -47,13 +49,20 @@ public class ProjectileBase : MonoBehaviour
 	{
 		if (hitFX != null)
 		{
-			GameObject fx = Instantiate( hitFX, transform.position, transform.rotation ) as GameObject;
-			if(hitEnemy) fx.transform.parent = hitEnemy.transform;
+
+			if(hitEnemy) {
+				Instantiate(enemyHitFX, transform.position, transform.rotation);
+				GameObject fx = Instantiate(lightBleedFX, transform.position, transform.rotation) as GameObject;
+				fx.transform.parent = hitEnemy.transform;
+			} else {
+				GameObject fx = Instantiate(hitFX, transform.position, transform.rotation) as GameObject;
+			}
 		}
 	}
 	
 	public void OnProjectileHit()
 	{
+		particles.transform.parent = null;
 		particles.Stop ();
 		Destroy (particles, particles.startLifetime);
 		CreatehitFX();
@@ -64,12 +73,10 @@ public class ProjectileBase : MonoBehaviour
 	{
 		if( collision.collider.tag == "Enemy" )
 		{
-			Debug.Log ("hit enemy");
 			Enemy enemy = collision.collider.GetComponent<Enemy>();
 			if(enemy) enemy.OnProjectileHit( this );
 			hitEnemy = collision.collider.gameObject;
 			OnProjectileHit();
-
 		}
 		else
 		{
