@@ -45,6 +45,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
+  - 114: {fileID: 11400002}
   m_Layer: 9
   m_Name: ProjectileModel
   m_TagString: Untagged
@@ -59,7 +60,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.1399002, y: 56.6086578, z: 14.24681}
+  m_LocalPosition: {x: 2.13438582, y: 1.06979907, z: 1.09156382}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400004}
@@ -147,6 +148,19 @@ MonoBehaviour:
   lifeTime: 3
   damage: 50
   hitFX: {fileID: 100002, guid: c0b2dcab8ad945f4f8c41cf0d1bcb6f9, type: 2}
+  particles: {fileID: 19800000}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f624981f88d405047ab34fcbe2edb5c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: {x: 1, y: 1}
 --- !u!135 &13500002
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -166,17 +180,17 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   lengthInSec: 1
-  startDelay: 0
+  startDelay: .100000001
   speed: 1
   randomSeed: 0
   looping: 1
   prewarm: 1
   playOnAwake: 1
-  moveWithTransform: 1
+  moveWithTransform: 0
   InitialModule:
     enabled: 1
     startLifetime:
-      scalar: 1
+      scalar: 2.04999995
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -209,7 +223,7 @@ ParticleSystem:
         m_PostInfinity: 2
       minMaxState: 0
     startSpeed:
-      scalar: 1
+      scalar: .25999999
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -403,7 +417,7 @@ ParticleSystem:
       minMaxState: 0
     gravityModifier: .00999999978
     inheritVelocity: 0
-    maxNumParticles: 100
+    maxNumParticles: 200
   ShapeModule:
     serializedVersion: 2
     enabled: 1
@@ -541,7 +555,7 @@ ParticleSystem:
           rgba: 4294967295
         key1:
           serializedVersion: 2
-          rgba: 4284078984
+          rgba: 5888904
         key2:
           serializedVersion: 2
           rgba: 0
@@ -1185,7 +1199,7 @@ ParticleSystem:
     range: {x: 0, y: 1}
   CollisionModule:
     enabled: 0
-    type: 0
+    type: 1
     plane0: {fileID: 0}
     plane1: {fileID: 0}
     plane2: {fileID: 0}

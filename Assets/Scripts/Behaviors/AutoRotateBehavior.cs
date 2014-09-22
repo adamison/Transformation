@@ -3,9 +3,9 @@ using System.Collections;
 
 public class AutoRotateBehavior : MonoBehaviour {
 
-	public float YawRate = 50.0f;
-	public float TiltRate = 50.0f;
-	public float RollRate = 50.0f;
+	public float Pitch  = 50.0f;
+	public float Yaw    = 50.0f;
+	public float Roll   = 50.0f;
 	
 	// Use this for initialization
 	void Start () {
@@ -14,6 +14,6 @@ public class AutoRotateBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate(TiltRate*Time.deltaTime, YawRate*Time.deltaTime, RollRate*Time.deltaTime);
+		transform.Rotate(Pitch*Time.deltaTime, Yaw*Time.deltaTime, Roll*Time.deltaTime);
 	}
 }
