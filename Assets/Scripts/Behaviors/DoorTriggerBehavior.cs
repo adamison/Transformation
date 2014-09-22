@@ -14,7 +14,10 @@ public class DoorTriggerBehavior : MonoBehaviour
 	{
 		if(c.tag == "Player")
 		{
-			_anim.SetTrigger("Activate");
+			if(!_anim.GetBool("Activate")) {
+				_anim.SetTrigger("Activate");
+			}
+			
 		}
 	}
 	
@@ -22,7 +25,9 @@ public class DoorTriggerBehavior : MonoBehaviour
 	{
 		if(c.tag == "Player")
 		{
-			_anim.SetTrigger("Activate");
+			if(!_anim.GetBool("Activate")) {
+				_anim.SetTrigger("Activate");
+			}
 		}
 	}
 }

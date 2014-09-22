@@ -7,10 +7,12 @@ ModelImporter:
     100002: DoorFrame
     100004: //RootNode
     100006: roundDoorGlass
+    100008: roundDoor
     400000: Door
     400002: DoorFrame
     400004: //RootNode
     400006: roundDoorGlass
+    400008: roundDoor
     2300000: Door
     2300002: DoorFrame
     2300004: roundDoorGlass
@@ -20,6 +22,10 @@ ModelImporter:
     4300000: DoorFrame
     4300002: Door
     4300004: roundDoorGlass
+    7400000: Take 001
+    7400002: Closed
+    7400004: Opening
+    7400006: Open
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -36,7 +42,115 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Closed
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DoorFrame
+        weight: 1
+      - path: roundDoor
+        weight: 1
+      - path: roundDoor/Door
+        weight: 1
+      - path: roundDoor/roundDoorGlass
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Opening
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DoorFrame
+        weight: 1
+      - path: roundDoor
+        weight: 1
+      - path: roundDoor/Door
+        weight: 1
+      - path: roundDoor/roundDoorGlass
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 149
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DoorFrame
+        weight: 1
+      - path: roundDoor
+        weight: 1
+      - path: roundDoor/Door
+        weight: 1
+      - path: roundDoor/roundDoorGlass
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
