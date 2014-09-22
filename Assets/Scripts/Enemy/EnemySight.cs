@@ -44,7 +44,6 @@ public class EnemySight : EnemyBase
 		{
 			inRangeAlert.SetActive(true);
 			inSightAlert.SetActive(false);
-			DataCore.player.health -= 5f;
 		}
 		else if (playerInSight == true)
 		{

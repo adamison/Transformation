@@ -198,6 +198,7 @@ public class Enemy : EnemyBase
 	
 	void DoAvoidance()
 	{
+		
 		Ray leftRay = new Ray(transform.position + (transform.right * 0.5f), transform.forward);
 		Ray rightRay = new Ray(transform.position - (transform.right * 0.5f), transform.forward);
 		

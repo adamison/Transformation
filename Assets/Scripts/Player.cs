@@ -61,6 +61,14 @@ public class Player : MonoBehaviour
 			DataCore.GameOver();
 		}
 	}
+	
+	void OnControllerColliderHit(ControllerColliderHit hit)
+	{
+		if(hit.gameObject.CompareTag("Enemy"))
+		{
+			DataCore.GameOver();
+		}
+	}
 		
 	// Action functions
 	public void IncrementPower(float amount)
