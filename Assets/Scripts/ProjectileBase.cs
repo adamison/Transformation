@@ -54,6 +54,7 @@ public class ProjectileBase : MonoBehaviour
 	
 	public void OnProjectileHit()
 	{
+		particles.transform.parent = null;
 		particles.Stop ();
 		Destroy (particles, particles.startLifetime);
 		CreatehitFX();
@@ -64,12 +65,10 @@ public class ProjectileBase : MonoBehaviour
 	{
 		if( collision.collider.tag == "Enemy" )
 		{
-			Debug.Log ("hit enemy");
 			Enemy enemy = collision.collider.GetComponent<Enemy>();
 			if(enemy) enemy.OnProjectileHit( this );
 			hitEnemy = collision.collider.gameObject;
 			OnProjectileHit();
-
 		}
 		else
 		{
