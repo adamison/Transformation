@@ -11,10 +11,8 @@ GameObject:
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
   - 95: {fileID: 9500000}
-  - 114: {fileID: 11400002}
-  - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: pyramid
+  m_Name: rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.61078262, y: .205121607, z: 15.6505909}
+  m_LocalPosition: {x: -7.48229122, y: .226406172, z: 6.06026936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -44,7 +42,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 5f501685e333ea14ebee9c012873ce5a, type: 2}
+  - {fileID: 2100000, guid: e3885bc38b68aa44d8b183a60757ebff, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -58,7 +56,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mesh: {fileID: 4300000, guid: 2ee2e52b83e35a84eacc686f62bd9988, type: 3}
+  m_Mesh: {fileID: 4300000, guid: c818c5e6f128b864fb094f96c6d81a8e, type: 3}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -67,39 +65,12 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2ee2e52b83e35a84eacc686f62bd9988, type: 3}
+  m_Avatar: {fileID: 9000000, guid: c818c5e6f128b864fb094f96c6d81a8e, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f624981f88d405047ab34fcbe2edb5c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrollSpeed: {x: 1, y: 1}
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2d64dc55e14aa4b8e5b5b437eaf564, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  c:
-  - {r: .316176474, g: .127865493, b: .162900105, a: 0}
-  - {r: .691176474, g: .274437726, b: .351970553, a: 0}
-  flickerRate: .400000006
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
