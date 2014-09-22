@@ -53,7 +53,8 @@ public class ProjectileBase : MonoBehaviour
 			if(hitEnemy) {
 				Instantiate(enemyHitFX, transform.position, transform.rotation);
 				GameObject fx = Instantiate(lightBleedFX, transform.position, transform.rotation) as GameObject;
-				fx.transform.parent = hitEnemy.transform;
+				fx.transform.parent = hitEnemy.transform.parent;
+
 			} else {
 				GameObject fx = Instantiate(hitFX, transform.position, transform.rotation) as GameObject;
 			}
@@ -71,7 +72,7 @@ public class ProjectileBase : MonoBehaviour
 	
 	void OnCollisionEnter( Collision collision )
 	{
-		if( collision.collider.tag == "Enemy" )
+		if( collision.collider.gameObject.CompareTag("Enemy"))
 		{
 			Enemy enemy = collision.collider.GetComponent<Enemy>();
 			if(enemy) enemy.OnProjectileHit( this );
