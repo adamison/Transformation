@@ -92,6 +92,7 @@ public class Enemy : EnemyBase
 				BeaconMovement();
 				break;
 			case EnemyType.star:
+				CheckHealth();
 				break;
 		
 		}
@@ -312,8 +313,20 @@ public class Enemy : EnemyBase
 		//transform.position = Vector3.Lerp(transform.position, transform.position + (projectile.transform.forward * 5f), 0.1f );
 	}
 
-
-
+	float deathTimer = 0.0f;
+	void CheckHealth()
+	{
+		if(currentHealth <= 0.0f)
+		{
+			deathTimer += 0.01f;
+			DataCore.player.fadeOut = true;
+			if(deathTimer > 1.0f)
+			{
+				Application.LoadLevel(4);
+			}
+		}
+	}
+	
 
 
 	// Pathfinding

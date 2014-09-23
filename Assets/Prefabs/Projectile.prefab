@@ -234,7 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   lifeTime: 3
-  damage: 50
+  damage: 20
   hitFX: {fileID: 100002, guid: c0b2dcab8ad945f4f8c41cf0d1bcb6f9, type: 2}
   enemyHitFX: {fileID: 100000, guid: 0dda5c067c7a2394fb394e88c2e7491d, type: 2}
   lightBleedFX: {fileID: 100000, guid: c2132156d22281045966bd2560761613, type: 2}

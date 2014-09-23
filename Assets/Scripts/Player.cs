@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
 		if(DataCore.powered == true)
 		{
 			powered = DataCore.powered;
-			Debug.Log("POWERED");
+			Camera.main.GetComponent<Bloom>().enabled = true;
 		}
 	}
 	

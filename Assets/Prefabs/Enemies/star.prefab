@@ -988,7 +988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   enemyState: 0
-  enemyType: 0
+  enemyType: 2
   projectilePrefab: {fileID: 0}
   currentHealth: 0
   maxHealth: 100
