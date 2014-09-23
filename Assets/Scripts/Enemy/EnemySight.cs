@@ -13,6 +13,8 @@ public class EnemySight : EnemyBase
 
 	private SphereCollider col;
 	private GameObject player;
+	
+	public bool useAlertIcons = true;
 	private GameObject inSightAlert;
 	private GameObject inRangeAlert;
 
@@ -21,39 +23,44 @@ public class EnemySight : EnemyBase
 		col = GetComponentsInChildren<SphereCollider>()[0];
 		player = DataCore.player.gameObject;//GameObject.FindGameObjectWithTag("Player");
 		
-		// create instances of alert prefabs
-		inSightAlert = Instantiate(inSightPrefab) as GameObject;
-		inRangeAlert = Instantiate(inRangePrefab) as GameObject;
-		
-		// parent prefabs to player
-		inSightAlert.transform.position = new Vector3(transform.position.x, transform.position.y + 1.25f, transform.position.z);
-		inRangeAlert.transform.position = inSightAlert.transform.position;
-		
-		inSightAlert.transform.parent = transform;
-		inRangeAlert.transform.parent = transform;
-		
-		// hide the alerts
-		inSightAlert.SetActive(false);
-		inRangeAlert.SetActive(false);	
+		if(useAlertIcons)
+		{
+			// create instances of alert prefabs
+			inSightAlert = Instantiate(inSightPrefab) as GameObject;
+			inRangeAlert = Instantiate(inRangePrefab) as GameObject;
+			
+			// parent prefabs to player
+			inSightAlert.transform.position = new Vector3(transform.position.x, transform.position.y + 1.25f, transform.position.z);
+			inRangeAlert.transform.position = inSightAlert.transform.position;
+			
+			inSightAlert.transform.parent = transform;
+			inRangeAlert.transform.parent = transform;
+			
+			// hide the alerts
+			inSightAlert.SetActive(false);
+			inRangeAlert.SetActive(false);	
+		}
 	}
 
 	
 	void FixedUpdate ()
 	{	
-		if (playerInRange == true)
+		if(useAlertIcons)
 		{
-			inRangeAlert.SetActive(true);
-			inSightAlert.SetActive(false);
+			if (playerInRange == true)
+			{
+				inRangeAlert.SetActive(true);
+				inSightAlert.SetActive(false);
+			}
+			else if (playerInSight == true)
+			{
+				inSightAlert.SetActive (true);
+				inRangeAlert.SetActive(false);
+			}
+			
+			if (playerInRange == false) inRangeAlert.SetActive(false);
+			if (playerInSight == false) inSightAlert.SetActive(false);
 		}
-		else if (playerInSight == true)
-		{
-			inSightAlert.SetActive (true);
-			inRangeAlert.SetActive(false);
-		}
-		
-		if (playerInRange == false) inRangeAlert.SetActive(false);
-		if (playerInSight == false) inSightAlert.SetActive(false);
-		
 	}
 
 	

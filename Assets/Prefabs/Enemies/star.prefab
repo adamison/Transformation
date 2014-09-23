@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400024}
+  - 114: {fileID: 11400022}
   m_Layer: 0
   m_Name: star
   m_TagString: Enemy
@@ -193,9 +195,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 400022}
   - 114: {fileID: 11400026}
-  - 114: {fileID: 11400024}
-  - 114: {fileID: 11400022}
-  - 143: {fileID: 14300000}
   - 54: {fileID: 5400000}
   m_Layer: 0
   m_Name: eye
@@ -368,7 +367,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 135.118896, y: 32.203186, z: 292.556519}
+  m_LocalPosition: {x: 11.1043396, y: -1.57800341, z: 30.5941391}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400032}
@@ -552,7 +551,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.55949772e-06, y: 2.64073009e-07, z: .595898151}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400024}
@@ -820,7 +819,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176cafc99c29791458e5421aff6735f9, type: 3}
   m_Name: 
@@ -981,46 +980,47 @@ MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100022}
+  m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 095d9d5a2a2be264cb21b9e12efd7c41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fieldOfViewAngle: 110
-  captureDistance: .5
-  playerInSight: 0
-  playerInRange: 0
-  inSightPrefab: {fileID: 100004, guid: 7c12d53b096cae7498a9eaaa406b2ab9, type: 2}
-  inRangePrefab: {fileID: 100000, guid: 238de68d07662264ab823bb294d36a75, type: 2}
-  lastSeenPosition: {x: 0, y: 0, z: 0}
---- !u!114 &11400024
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100022}
-  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd29fe8776478464a8b7a39525acad08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   enemyState: 0
-  enemyType: 3
-  projectilePrefab: {fileID: 100000, guid: ef4b182725bcf16498a5510f62f44e4b, type: 2}
+  enemyType: 0
+  projectilePrefab: {fileID: 0}
   currentHealth: 0
   maxHealth: 100
   startPosition: {x: 0, y: 0, z: 0}
   chaseTarget: {fileID: 0}
-  walkSpeed: .25
-  runSpeed: 1.25
-  searchTime: 2
+  walkSpeed: 1.25
+  runSpeed: 4.25
+  searchTime: 4
+  pathFind: 0
   doAvoid: 0
   _AllWaypoints: []
   _TempTargetWayPoints: []
-  _TargetWayPoints:
-  - {fileID: 0}
+  _TargetWayPoints: []
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095d9d5a2a2be264cb21b9e12efd7c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldOfViewAngle: 150
+  captureDistance: 1.5
+  playerInSight: 0
+  playerInRange: 0
+  inSightPrefab: {fileID: 0}
+  inRangePrefab: {fileID: 0}
+  lastSeenPosition: {x: 0, y: 0, z: 0}
+  useAlertIcons: 0
 --- !u!114 &11400026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1137,20 +1137,6 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!143 &14300000
-CharacterController:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100022}
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: .5
-  m_SlopeLimit: 45
-  m_StepOffset: .300000012
-  m_SkinWidth: .0799999982
-  m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!198 &19800000
 ParticleSystem:
@@ -2217,7 +2203,7 @@ ParticleSystem:
   looping: 1
   prewarm: 0
   playOnAwake: 1
-  moveWithTransform: 0
+  moveWithTransform: 1
   InitialModule:
     enabled: 1
     startLifetime:

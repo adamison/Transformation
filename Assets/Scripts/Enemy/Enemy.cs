@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent (typeof (EnemySight))]
+
 public class Enemy : EnemyBase 
 {
 	public CharacterController controller;
@@ -22,6 +24,8 @@ public class Enemy : EnemyBase
 	public float runSpeed = 4.25f;
 	
 	public float searchTime = 4.0f;
+
+	public bool pathFind = true;
 
 	protected Animator animator;	
 	private float directionDampTime = 0.25f;
@@ -101,13 +105,13 @@ public class Enemy : EnemyBase
 			case EnemyState.patrolling:
 				//if(_TempTargetWayPoints != null) _TargetWayPoints = _TempTargetWayPoints;
 			
-				animator.SetFloat("Speed", walkSpeed);
+				if(animator) animator.SetFloat("Speed", walkSpeed);
 				//animator.SetFloat("Direction", h, directionDampTime, Time.deltaTime);
-				DoPathfinding();
+				if(pathFind) DoPathfinding();
 				
 				break;		
 			case EnemyState.chasing:
-				animator.SetFloat("Speed", runSpeed);
+				if(animator) animator.SetFloat("Speed", runSpeed);
 				
 				//if I see the player, chase him
 				enemyState = EnemyState.chasing;
@@ -132,7 +136,7 @@ public class Enemy : EnemyBase
 				}
 				break;				
 			case EnemyState.searching:
-				animator.SetFloat("Speed", walkSpeed);			
+				if(animator) animator.SetFloat("Speed", walkSpeed);			
 				
 				DoPathfinding();
 				
