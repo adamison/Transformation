@@ -30,7 +30,7 @@ public class MainMenu : MonoBehaviour
 		
 		string label = "- press any key -";
 		
-		GUI.Label( new Rect( ( Screen.width - labelWidth ) * 0.5f, ( Screen.height - labelHeight ) * 0.5f + 200f, labelWidth, labelHeight ), label );
+		GUI.Label( new Rect( ( Screen.width - labelWidth ) * 0.5f, ( Screen.height - labelHeight ), labelWidth, labelHeight ), label );
 	}
 	
 }

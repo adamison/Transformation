@@ -119,6 +119,7 @@ public class Story : MonoBehaviour
 		if(storyIndex >= storyText.Length)
 		{
 			finished = true;
+			Application.LoadLevel(3);
 		}
 	}
 }
