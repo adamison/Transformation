@@ -44,6 +44,15 @@ public class Player : MonoBehaviour
 		fadeColor = fadePanel.renderer.material.color;
 	}
 	
+	void Start()
+	{
+		if(DataCore.powered == true)
+		{
+			powered = DataCore.powered;
+			Debug.Log("POWERED");
+		}
+	}
+	
 	void Update()
 	{	
 		if(powerMP > powerThreshold && DataCore._view == DataCore.VIEW.Physical)

@@ -12,6 +12,7 @@ public class DataCore : MonoBehaviour
 	public GameObject playerPrefab;
 	public GameObject playerObject;
 	public static Player player;
+	public static bool powered = false;
 	
 	public Transform spawnPoint;
 	public Transform[] enemySpawnPoints;
