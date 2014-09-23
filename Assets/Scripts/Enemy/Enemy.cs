@@ -141,7 +141,7 @@ public class Enemy : EnemyBase
 			case EnemyState.searching:
 				if(animator) animator.SetFloat("Speed", walkSpeed);			
 				
-				DoPathfinding();
+				if(pathFind) DoPathfinding();
 				
 				//_RotateYaw(2f);
 				break;			
