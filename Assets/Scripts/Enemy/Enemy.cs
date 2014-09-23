@@ -67,8 +67,11 @@ public class Enemy : EnemyBase
 		currentHealth = maxHealth;
 		chaseTarget = null;
 		
-		_AllWaypoints = GameObject.FindObjectsOfType<WayPoint>();
-		_TempTargetWayPoints = _TargetWayPoints;
+		if(pathFind)
+		{
+			_AllWaypoints = GameObject.FindObjectsOfType<WayPoint>();
+			_TempTargetWayPoints = _TargetWayPoints;
+		}
 		
 		if(enemyType == EnemyType.beacon)
 		{
@@ -152,7 +155,7 @@ public class Enemy : EnemyBase
 	
 	void StatePatrolEnter()
 	{
-		_TargetWayPoints = _TempTargetWayPoints;
+		if(pathFind) _TargetWayPoints = _TempTargetWayPoints;
 		enemyState = Enemy.EnemyState.patrolling;		
 	}
 	void StateSearchingEnter()
