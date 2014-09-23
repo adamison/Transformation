@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
 	public float powerChargeModifier = 2.0f;
 	public bool charging = false;
 	public bool chargeOn = false;
+	public bool powered = false;
 	public GameObject projectilePrefab;
 	
 	//private static GameObject hands;

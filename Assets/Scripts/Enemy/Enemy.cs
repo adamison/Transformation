@@ -6,8 +6,10 @@ public class Enemy : EnemyBase
 	public CharacterController controller;
 
 	public enum EnemyState { patrolling, searching, chasing, idle };
+	public enum EnemyType  { guard, beacon, star, eye };
 
 	public EnemyState enemyState = EnemyState.patrolling;
+	public EnemyType enemyType = EnemyType.guard;
 
 	public float currentHealth;
 	public float maxHealth = 100f;
@@ -26,6 +28,9 @@ public class Enemy : EnemyBase
 	private RaycastHit avoidanceHit;
 	public bool doAvoid = false;
 	private GameObject player;
+
+	private Vector3 targetPosition;
+	private int waypointIndex = 0;
 
 	// Pathfinding
 	private int _CURRENT_STATE = 0;
@@ -57,12 +62,31 @@ public class Enemy : EnemyBase
 		
 		_AllWaypoints = GameObject.FindObjectsOfType<WayPoint>();
 		_TempTargetWayPoints = _TargetWayPoints;
+		
+		if(enemyType == EnemyType.beacon)
+		{
+			targetPosition = _TargetWayPoints[waypointIndex].transform.position;
+		}
 	}
 
 	void FixedUpdate()
 	{
-		StateManager();
-		DoAvoidance();
+		switch(enemyType)
+		{
+			case EnemyType.guard:
+				StateManager();
+				DoAvoidance();
+				break;
+			case EnemyType.beacon:
+				BeaconMovement();
+				break;
+			case EnemyType.eye:
+				break;
+			case EnemyType.star:
+				break;
+		
+		}
+		
 	}
 	
 	void StateManager()
@@ -199,19 +223,10 @@ public class Enemy : EnemyBase
 	void DoAvoidance()
 	{
 		
-		Ray leftRay = new Ray(transform.position + (transform.right * 0.5f), transform.forward);
-		Ray rightRay = new Ray(transform.position - (transform.right * 0.5f), transform.forward);
+		Ray leftRay = new Ray(transform.position - (transform.right * 0.5f), transform.forward);
+		Ray rightRay = new Ray(transform.position + (transform.right * 0.5f), transform.forward);
 		
 		if( Physics.Raycast(leftRay, out avoidanceHit, avoidRange) ) 
-		{
-			if ( avoidanceHit.collider.gameObject.CompareTag("Obstacle") )
-			{
-				doAvoid = true;
-				transform.Rotate(Vector3.up * Time.deltaTime * -avoidRotationSpeed);
-				//_RotateYaw(avoidRotationSpeed);
-			}		
-		}
-		else if( Physics.Raycast(rightRay, out avoidanceHit, avoidRange) ) 
 		{
 			if ( avoidanceHit.collider.gameObject.CompareTag("Obstacle") )
 			{
@@ -220,12 +235,41 @@ public class Enemy : EnemyBase
 				//_RotateYaw(avoidRotationSpeed);
 			}		
 		}
+		else if( Physics.Raycast(rightRay, out avoidanceHit, avoidRange) ) 
+		{
+			if ( avoidanceHit.collider.gameObject.CompareTag("Obstacle") )
+			{
+				doAvoid = true;
+				transform.Rotate(Vector3.up * Time.deltaTime * -avoidRotationSpeed);
+				//_RotateYaw(avoidRotationSpeed);
+			}		
+		}
 		else
 		{
 			doAvoid = false;
 		}
 		
-	}	
+	}
+	
+	float beaconTimer = 0.0f;
+	public void BeaconMovement()
+	{
+		// do some scripted movement
+		float dist = Vector3.Distance(transform.position, targetPosition);
+		if(dist < 0.5f && waypointIndex < _TargetWayPoints.Length-1)
+		{
+			// Pause then move on
+			beaconTimer += 0.01f;
+			if(beaconTimer > 1.0f)
+			{			
+				waypointIndex++;
+				targetPosition = _TargetWayPoints[waypointIndex].transform.position;
+				beaconTimer = 0.0f;
+			}
+		}
+		
+		if(dist > 0.5f) transform.position += (targetPosition-transform.position) * Time.deltaTime * 2.0f;
+	}
 	
 	public void Respawn()
 	{
