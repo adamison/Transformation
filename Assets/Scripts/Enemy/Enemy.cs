@@ -7,7 +7,7 @@ public class Enemy : EnemyBase
 {
 	public CharacterController controller;
 
-	public enum EnemyState { patrolling, searching, chasing, idle };
+	public enum EnemyState { patrolling, searching, chasing, idle, attacking };
 	public enum EnemyType  { guard, beacon, star, eye };
 
 	public EnemyState enemyState = EnemyState.patrolling;

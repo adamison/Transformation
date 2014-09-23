@@ -7,6 +7,7 @@ public class FPSController : MonoBehaviour
 {
 	public Player player;
 
+	Animator bobbing = null;
 	Animator anim = null;
 
 	public enum PlayerState {idle, running};
@@ -34,7 +35,8 @@ public class FPSController : MonoBehaviour
 	
 	void Start ()
 	{
-		anim = this.gameObject.GetComponentsInChildren<Animator>()[0];
+		bobbing = this.gameObject.GetComponentsInChildren<Animator>()[0];
+		anim = this.gameObject.GetComponentsInChildren<Animator>()[1];
 		controller = this.gameObject.GetComponent<CharacterController>();
 		player = this.gameObject.GetComponent<Player>();
 		Screen.lockCursor = true;
@@ -52,10 +54,10 @@ public class FPSController : MonoBehaviour
 
 		float forwardMovement = Input.GetAxis ("Vertical"); 
 		float sideMovement = Input.GetAxis ("Horizontal"); 
-
-		moveDirection = new Vector3 (sideMovement, 0, forwardMovement);
-		moveDirection = transform.rotation * moveDirection.normalized;
-		//anim.SetFloat("moveSpeed", moveDirection.magnitude);
+		Vector3 inputDirection = new Vector3 (sideMovement, 0, forwardMovement);
+		//moveDirection = new Vector3 (sideMovement, 0, forwardMovement);
+		moveDirection = transform.rotation * inputDirection.normalized;
+		bobbing.SetFloat("moveSpeed", moveDirection.magnitude);
 		moveDirection.y = verticalVelocity;
 		if(playerState == PlayerState.idle)
 		{
@@ -99,7 +101,7 @@ public class FPSController : MonoBehaviour
 			}
 		}
 
-		if(Input.GetButton ("Run"))
+		if(Input.GetButton ("Run") && inputDirection.magnitude > 0.01f)
 		{
 			playerState = PlayerState.running;
 			anim.SetBool("running", true);
