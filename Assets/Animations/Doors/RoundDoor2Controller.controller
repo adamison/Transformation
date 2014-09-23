@@ -46,7 +46,7 @@ Transition:
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
---- !u!1101 &110112994
+--- !u!1101 &110171505
 Transition:
   serializedVersion: 2
   m_ObjectHideFlags: 3
@@ -55,7 +55,7 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110228825}
   m_DstState: {fileID: 110297445}
-  m_TransitionDuration: 5.99998856
+  m_TransitionDuration: 6.00002289
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 1
@@ -189,15 +189,15 @@ StateMachine:
     data:
       first: {fileID: 110228825}
       second:
-      - {fileID: 110112994}
-    data:
-      first: {fileID: 110254088}
-      second:
-      - {fileID: 110181596}
+      - {fileID: 110171505}
     data:
       first: {fileID: 110297445}
       second:
       - {fileID: 110189049}
+    data:
+      first: {fileID: 110254088}
+      second:
+      - {fileID: 110181596}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

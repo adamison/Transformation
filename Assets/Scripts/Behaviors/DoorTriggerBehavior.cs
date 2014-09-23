@@ -12,7 +12,7 @@ public class DoorTriggerBehavior : MonoBehaviour
 
 	void OnTriggerEnter(Collider c)
 	{
-		if(c.tag == "Player")
+		if(c.tag == "Player" || c.tag == "Enemy")
 		{
 			if(!_anim.GetBool("Activate")) {
 				_anim.SetTrigger("Activate");
@@ -23,7 +23,7 @@ public class DoorTriggerBehavior : MonoBehaviour
 	
 	void OnTriggerExit(Collider c)
 	{
-		if(c.tag == "Player")
+		if(c.tag == "Player" || c.tag == "Enemy")
 		{
 			if(!_anim.GetBool("Activate")) {
 				_anim.SetTrigger("Activate");

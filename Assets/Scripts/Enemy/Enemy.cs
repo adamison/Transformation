@@ -65,7 +65,7 @@ public class Enemy : EnemyBase
 		
 		if(enemyType == EnemyType.beacon)
 		{
-			targetPosition = _TargetWayPoints[waypointIndex].transform.position;
+			targetPosition = new Vector3(_TargetWayPoints[waypointIndex].transform.position.x, transform.position.y, _TargetWayPoints[waypointIndex].transform.position.z);
 		}
 	}
 
@@ -260,15 +260,15 @@ public class Enemy : EnemyBase
 		{
 			// Pause then move on
 			beaconTimer += 0.01f;
-			if(beaconTimer > 1.0f)
+			if(beaconTimer > 1.5f)
 			{			
 				waypointIndex++;
-				targetPosition = _TargetWayPoints[waypointIndex].transform.position;
+				targetPosition = new Vector3(_TargetWayPoints[waypointIndex].transform.position.x, transform.position.y, _TargetWayPoints[waypointIndex].transform.position.z);
 				beaconTimer = 0.0f;
 			}
 		}
 		
-		if(dist > 0.5f) transform.position += (targetPosition-transform.position) * Time.deltaTime * 2.0f;
+		if(dist > 0.5f) transform.position += (targetPosition-transform.position).normalized * Time.deltaTime * 4.0f;
 	}
 	
 	public void Respawn()
