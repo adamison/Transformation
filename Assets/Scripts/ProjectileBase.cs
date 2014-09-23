@@ -22,6 +22,7 @@ public class ProjectileBase : MonoBehaviour
 	void Start()
 	{
 		forwardOffset = Vector3.zero;
+		Invoke ("Destroy", lifeTime);
 	}
 	
 	public void SetStartPosition( Vector3 position )
@@ -36,13 +37,7 @@ public class ProjectileBase : MonoBehaviour
 		
 	void FixedUpdate()
 	{
-		float timePassed = (float) (Time.time - creationTime);
 		transform.position += transform.forward * speed * Time.deltaTime;
-		
-		if( timePassed > lifeTime )
-		{
-			Destroy( gameObject );
-		}
 	}
 	
 	void CreatehitFX()
@@ -63,10 +58,16 @@ public class ProjectileBase : MonoBehaviour
 	
 	public void OnProjectileHit()
 	{
-		particles.transform.parent = null;
-		particles.Stop ();
-		Destroy (particles, particles.startLifetime);
+		Destroy ();
 		CreatehitFX();
+		Destroy( gameObject );
+	}
+	
+	public void Destroy()
+	{
+		particles.transform.parent.parent = null;
+		particles.Stop ();
+		
 		Destroy( gameObject );
 	}
 	
