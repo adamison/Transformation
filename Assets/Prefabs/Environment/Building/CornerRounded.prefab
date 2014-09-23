@@ -27,6 +27,7 @@ GameObject:
   - 23: {fileID: 2300000}
   - 95: {fileID: 9500000}
   - 64: {fileID: 6400000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: cornerRounded
   m_TagString: Obstacle
@@ -113,6 +114,24 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2d64dc55e14aa4b8e5b5b437eaf564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  c:
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: .68235296, g: .68235296, b: .447058827, a: 0}
+  flickerRate: 1
+  proximityFromTarget: {fileID: 0}
+  proximityToTarget: {fileID: 0}
+  proximityFlicker: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
