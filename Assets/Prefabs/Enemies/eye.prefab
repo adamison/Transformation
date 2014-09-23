@@ -200,8 +200,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: .808166683, z: 0, w: -.588953853}
-  m_LocalPosition: {x: 29.9845352, y: 4.75314903, z: 33.9030228}
+  m_LocalRotation: {x: 0, y: .959576488, z: 0, w: -.281448156}
+  m_LocalPosition: {x: -21.1784058, y: 4.75314903, z: 191.912781}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400004}
@@ -549,6 +549,11 @@ MonoBehaviour:
   Pitch: 0
   Yaw: 0
   Roll: 0
+  IntermittentChange: 0
+  changeRate: 3
+  pitchChange: 0
+  yawChange: 0
+  rollChange: 0
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -584,7 +589,7 @@ MonoBehaviour:
   enemyType: 3
   projectilePrefab: {fileID: 100000, guid: ef4b182725bcf16498a5510f62f44e4b, type: 2}
   currentHealth: 0
-  maxHealth: 100
+  maxHealth: 10
   startPosition: {x: 0, y: 0, z: 0}
   chaseTarget: {fileID: 0}
   walkSpeed: .25

@@ -81,6 +81,10 @@ public class ProjectileBase : MonoBehaviour
 			{
 				Debug.Log("HIT");
 				Enemy enemy = collision.collider.GetComponent<Enemy>();
+				if(!enemy) {
+					enemy = collision.collider.gameObject.transform.GetComponentInParent<Enemy>();
+
+				}
 				if(enemy) enemy.OnProjectileHit( this );
 				hitEnemy = collision.collider.gameObject;
 				OnProjectileHit();
