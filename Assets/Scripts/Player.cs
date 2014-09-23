@@ -102,6 +102,13 @@ public class Player : MonoBehaviour
 		newProjectile.SetCreationTime (Time.time);
 	}
 	
+	public void OnProjectileHit(ProjectileBase projectile)
+	{
+		health = health - projectile.damage;
+		
+		// pulse a red filter in front of camera
+	}
+	
 	public void PrimaryAction()
 	{
 		Interact ();

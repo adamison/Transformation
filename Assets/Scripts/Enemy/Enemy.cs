@@ -11,6 +11,8 @@ public class Enemy : EnemyBase
 	public EnemyState enemyState = EnemyState.patrolling;
 	public EnemyType enemyType = EnemyType.guard;
 
+	public GameObject projectilePrefab;
+
 	public float currentHealth;
 	public float maxHealth = 100f;
 	public Vector3 startPosition;
@@ -31,6 +33,7 @@ public class Enemy : EnemyBase
 
 	private Vector3 targetPosition;
 	private int waypointIndex = 0;
+	private float shootDelay = 1.0f;
 
 	// Pathfinding
 	private int _CURRENT_STATE = 0;
@@ -73,14 +76,13 @@ public class Enemy : EnemyBase
 	{
 		switch(enemyType)
 		{
+			case EnemyType.eye:
 			case EnemyType.guard:
 				StateManager();
 				DoAvoidance();
 				break;
 			case EnemyType.beacon:
 				BeaconMovement();
-				break;
-			case EnemyType.eye:
 				break;
 			case EnemyType.star:
 				break;
@@ -117,6 +119,16 @@ public class Enemy : EnemyBase
 				if(!EnemySight.playerInSight)
 				{
 					Invoke("StateSearchingEnter", searchTime);														
+				}
+				
+				if(EnemySight.playerInSight && enemyType == EnemyType.eye)
+				{
+					shootDelay += 0.01f;
+					if(shootDelay > 1.0f)
+					{
+						shootDelay = 0.0f;
+						Shoot();
+					}
 				}
 				break;				
 			case EnemyState.searching:
@@ -269,6 +281,16 @@ public class Enemy : EnemyBase
 		}
 		
 		if(dist > 0.5f) transform.position += (targetPosition-transform.position).normalized * Time.deltaTime * 4.0f;
+	}
+	
+	public void Shoot()
+	{
+		GameObject projectile = (GameObject)Instantiate(projectilePrefab, transform.position, transform.rotation);
+		projectile.transform.forward = (player.transform.position - transform.position).normalized;
+		
+		ProjectileBase newProjectile = projectile.GetComponent<ProjectileBase> ();
+		newProjectile.SetStartPosition(transform.position);
+		newProjectile.SetCreationTime (Time.time);
 	}
 	
 	public void Respawn()

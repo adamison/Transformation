@@ -11,6 +11,8 @@ public class ProjectileBase : MonoBehaviour
 	public GameObject enemyHitFX = null;
 	public GameObject lightBleedFX = null;
 	public ParticleSystem particles = null;
+	
+	public bool enemyProjectile = false;
 
 	public GameObject hitEnemy = null;
 
@@ -45,7 +47,7 @@ public class ProjectileBase : MonoBehaviour
 		if (hitFX != null)
 		{
 
-			if(hitEnemy) {
+			if(hitEnemy && lightBleedFX != null) {
 				Instantiate(enemyHitFX, transform.position, transform.rotation);
 				GameObject fx = Instantiate(lightBleedFX, transform.position, transform.rotation) as GameObject;
 				fx.transform.parent = hitEnemy.transform.parent;
@@ -72,17 +74,30 @@ public class ProjectileBase : MonoBehaviour
 	}
 	
 	void OnCollisionEnter( Collision collision )
-	{
-		if( collision.collider.gameObject.CompareTag("Enemy"))
+	{	
+		if(!enemyProjectile)
 		{
-			Enemy enemy = collision.collider.GetComponent<Enemy>();
-			if(enemy) enemy.OnProjectileHit( this );
-			hitEnemy = collision.collider.gameObject;
-			OnProjectileHit();
+			if( collision.collider.gameObject.CompareTag("Enemy"))
+			{
+				Enemy enemy = collision.collider.GetComponent<Enemy>();
+				if(enemy) enemy.OnProjectileHit( this );
+				hitEnemy = collision.collider.gameObject;
+				OnProjectileHit();
+			}
+			else
+			{
+				OnProjectileHit();
+			}
 		}
 		else
 		{
-			OnProjectileHit();
+			if( collision.collider.gameObject.CompareTag("Player"))
+			{
+				Player player = collision.collider.GetComponent<Player>();
+				if(player) player.OnProjectileHit( this );
+				hitEnemy = collision.collider.gameObject;
+				OnProjectileHit();
+			}
 		}
 	}
 }
