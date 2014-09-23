@@ -200,8 +200,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: .959576488, z: 0, w: -.281448096}
-  m_LocalPosition: {x: 67.9999771, y: 5.08925438, z: 44.9510651}
+  m_LocalRotation: {x: 0, y: .808166683, z: 0, w: -.588953853}
+  m_LocalPosition: {x: 29.9845352, y: 4.75314903, z: 33.9030228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400004}
@@ -257,7 +257,7 @@ Transform:
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: .0193509962, z: 0, w: .999812782}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 12.1623211, y: 12.1623325, z: 12.1623344}
+  m_LocalScale: {x: 35.2840614, y: 35.2840805, z: 35.2840881}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 3
@@ -567,6 +567,7 @@ MonoBehaviour:
   inSightPrefab: {fileID: 100004, guid: 7c12d53b096cae7498a9eaaa406b2ab9, type: 2}
   inRangePrefab: {fileID: 100000, guid: 238de68d07662264ab823bb294d36a75, type: 2}
   lastSeenPosition: {x: 0, y: 0, z: 0}
+  useAlertIcons: 1
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -589,6 +590,7 @@ MonoBehaviour:
   walkSpeed: .25
   runSpeed: 1.25
   searchTime: 2
+  pathFind: 0
   doAvoid: 0
   _AllWaypoints: []
   _TempTargetWayPoints: []
