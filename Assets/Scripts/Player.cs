@@ -15,12 +15,18 @@ public class Player : MonoBehaviour
 	public bool chargeOn = false;
 	public bool powered = false;
 	public GameObject projectilePrefab;
-	
+		
 	//private static GameObject hands;
 	private ParticleSystem chargeEmitter;
 	private Component characterController;
 	private GameObject projectileEmitter;
-
+	private GameObject uiCamera;
+	private GameObject fadePanel;
+	
+	public bool fadeOut = false;
+		
+	private Color fadeColor;
+	
 	void Awake()
 	{
 		instance = this;
@@ -32,10 +38,14 @@ public class Player : MonoBehaviour
 		characterController = gameObject.GetComponent<FPSController> ();
 
 		projectileEmitter = transform.FindChild ("Emitter").gameObject;
+		
+		uiCamera = GameObject.Find ("UICamera");
+		fadePanel = uiCamera.transform.FindChild("FadePanel").gameObject;
+		fadeColor = fadePanel.renderer.material.color;
 	}
 	
 	void Update()
-	{
+	{	
 		if(powerMP > powerThreshold && DataCore._view == DataCore.VIEW.Physical)
 		{
 			DataCore._view = DataCore.VIEW.Metaphysical;
@@ -60,6 +70,22 @@ public class Player : MonoBehaviour
 		if(health <= 0f)
 		{
 			DataCore.GameOver();
+		}
+	}
+	
+	float fadeAlpha = 1.0f;
+	
+	void FixedUpdate()
+	{
+		if(!fadeOut && fadeAlpha > 0.0f) {
+			fadeAlpha -= 0.005f;
+			fadePanel.renderer.material.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, fadeAlpha);
+		}
+		
+		if(fadeOut) {
+			fadeAlpha += 0.005f;
+			fadePanel.renderer.material.color = new Color(fadeColor.r, fadeColor.g, fadeColor.b, fadeAlpha);
+			Debug.Log(fadeAlpha);
 		}
 	}
 	
@@ -89,7 +115,7 @@ public class Player : MonoBehaviour
 	
 	public void Interact()
 	{
-		Debug.Log ("interact");
+				
 	}
 	
 	public void Shoot()
