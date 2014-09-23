@@ -86,7 +86,7 @@ public class FPSController : MonoBehaviour
 			anim.SetTrigger ("interact");
 		}
 		
-		if(animState.IsName ("idle") || animState.IsName ("holding clasped"))
+		if(player.powered && (animState.IsName ("idle") || animState.IsName ("holding clasped")))
 		{
 			if (Input.GetButtonDown ("Ability")) 
 			{
