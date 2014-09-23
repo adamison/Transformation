@@ -7,12 +7,13 @@ public class SnapRotateBehavior : MonoBehaviour {
 	public float Yaw = 50.0f;
 	public float Roll = 50.0f;
 	public float snapDelay = 1.0f;
+	public float startDelay = 0.0f;
 	public Quaternion targetRotation;
 	public float rotationRate = 10.0f;
 	// Use this for initialization
 	void Start () {
-		//InvokeRepeating("SetNewRotationTarget", snapDelay, snapDelay);
-		Invoke ("SetNewRotationTarget", snapDelay);
+		InvokeRepeating("SetNewRotationTarget", startDelay, snapDelay);
+		//Invoke ("SetNewRotationTarget", snapDelay);
 	}
 	
 	// Update is called once per frame
@@ -29,6 +30,6 @@ public class SnapRotateBehavior : MonoBehaviour {
 		                                         );
 
 		targetRotation = newTarget;
-		Invoke ("SetNewRotationTarget", snapDelay);
+		//Invoke ("SetNewRotationTarget", snapDelay);
 	}
 }
